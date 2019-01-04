@@ -1,0 +1,63 @@
+pi@raspberrypi:~ $ iotedge logs LoRaWanNetworkSrvModule
+2019-01-04 01:41:29.384 Starting LoRaWAN Server...
+2019-01-04 01:41:35.259 Getting properties from module twin...
+2019-01-04 01:45:35.289 Initialization failed with error: Operation timeout expired.
+
+Unhandled Exception: System.AggregateException: One or more errors occurred. (Operation timeout expired.) ---> System.TimeoutException: Operation timeout expired.
+   at LoRaWan.NetworkServer.UdpServer.InitCallBack() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 249
+   at LoRaWan.NetworkServer.UdpServer.RunServer() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 51
+   at LoRaWanNetworkSrvModule.Program.Run() in /app/LoRaWanNetworkSrvModule/Program.cs:line 54
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at LoRaWanNetworkSrvModule.Program.Main(String[] args)
+2019-01-04 01:46:05.941 Starting LoRaWAN Server...
+2019-01-04 01:46:08.588 Getting properties from module twin...
+2019-01-04 01:46:33.392 Facade function url: https://todaairfunction.azurewebsites.net/api/
+2019-01-04 01:46:35.133 LoRaWAN server started on port 1680
+2019-01-04 01:46:43.801 Statistic: {"stat":{"time":"2019-01-04 01:46:43 GMT","rxnb":2,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0}}
+2019-01-04 01:46:54.546 Physical dataUp {"rxpk":[{"tmst":283327611,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-79,"size":23,"data":"AOIUAAAAAHq+KABDAGjIqkfkiYaRfKE="}]}
+2019-01-04 01:46:54.839 47AAC86800430028: join request received
+2019-01-04 01:46:54.948 47AAC86800430028: querying the registry for device key
+2019-01-04 01:47:01.326 Physical dataUp {"rxpk":[{"tmst":290109604,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF9BW125","codr":"4/5","lsnr":12.5,"rssi":-82,"size":23,"data":"AOIUAAAAAHq+KABDAGjIqkdtlIbnIU8="}]}
+2019-01-04 01:47:01.328 47AAC86800430028: join request received
+2019-01-04 01:47:01.329 47AAC86800430028: querying the registry for device key
+2019-01-04 01:47:04.422 47AAC86800430028: using edgeHub local queue
+2019-01-04 01:47:04.498 47AAC86800430028: getting twins for OTAA for device
+2019-01-04 01:47:04.512 47AAC86800430028: getting twins
+2019-01-04 01:47:07.692 47AAC86800430028: done getting twins
+2019-01-04 01:47:07.842 47AAC86800430028: done getting twins for OTAA device
+2019-01-04 01:47:07.854 47AAC86800430028: using edgeHub local queue
+2019-01-04 01:47:07.856 47AAC86800430028: getting twins for OTAA for device
+2019-01-04 01:47:07.862 47AAC86800430028: getting twins
+2019-01-04 01:47:08.265 Physical dataUp {"rxpk":[{"tmst":297050812,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF10BW125","codr":"4/5","lsnr":10.0,"rssi":-77,"size":23,"data":"AOIUAAAAAHq+KABDAGjIqkf+stj/cGY="}]}
+2019-01-04 01:47:08.267 47AAC86800430028: join request received
+2019-01-04 01:47:08.268 47AAC86800430028: querying the registry for device key
+2019-01-04 01:47:08.284 47AAC86800430028: processing of the join request took too long, sending no message
+2019-01-04 01:47:08.297 47AAC86800430028: saving join properties twins
+2019-01-04 01:47:08.567 47AAC86800430028: using edgeHub local queue
+2019-01-04 01:47:08.573 47AAC86800430028: using cached twins for OTAA device
+2019-01-04 01:47:08.598 47AAC86800430028: saving join properties twins
+2019-01-04 01:47:09.155 47AAC86800430028: done saving join properties twins
+2019-01-04 01:47:09.592 47AAC86800430028: processing of the join request took too long, using second join accept receive window
+2019-01-04 01:47:09.595 47AAC86800430028: using standard second receive windows for join request
+2019-01-04 01:47:09.779 4212CE02: JoinAccept {"txpk":{"imme":false,"data":"INWqaf7SsOlX1jYve3+oFQs=","tmst":289327611,"size":17,"freq":505.3,"rfch":0,"modu":"LORA","datr":"SF12BW125","codr":"4/5","powe":14,"ipol":true}}
+2019-01-04 01:47:09.812 47AAC86800430028: join accept sent with ID 021A
+2019-01-04 01:47:09.816 47AAC86800430028: processing time: 00:00:15.2681331
+2019-01-04 01:47:09.858 Packet with id 021A had a problem to be transmitted over the air :{"txpk_ack":{"error":"TOO_EARLY"}}
+2019-01-04 01:47:12.181 47AAC86800430028: done getting twins
+2019-01-04 01:47:12.183 47AAC86800430028: done getting twins for OTAA device
+2019-01-04 01:47:12.186 47AAC86800430028: processing of the join request took too long, sending no message
+2019-01-04 01:47:12.188 47AAC86800430028: saving join properties twins
+2019-01-04 01:47:12.622 47AAC86800430028: could not save twins with error: Operation timeout expired.
+2019-01-04 01:47:12.623 47AAC86800430028: join request could not save twins, join refused
+2019-01-04 01:47:13.657 Statistic: {"stat":{"time":"2019-01-04 01:47:13 GMT","rxnb":3,"rxok":3,"rxfw":3,"ackr":100.0,"dwnb":1,"txnb":0}}
+2019-01-04 01:47:16.216 47AAC86800430028: could not save twins with error: Operation timeout expired.
+2019-01-04 01:47:16.221 47AAC86800430028: join request could not save twins, join refused
+2019-01-04 01:47:16.341 Physical dataUp {"rxpk":[{"tmst":305099212,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF12BW125","codr":"4/5","lsnr":8.8,"rssi":-77,"size":23,"data":"AOIUAAAAAHq+KABDAGjIqkcZ9CS4mko="}]}
+2019-01-04 01:47:16.343 47AAC86800430028: join request received
+2019-01-04 01:47:16.346 47AAC86800430028: querying the registry for device key
+2019-01-04 01:47:16.606 47AAC86800430028: using edgeHub local queue
+2019-01-04 01:47:16.609 47AAC86800430028: using cached twins for OTAA device
+2019-01-04 01:47:16.612 47AAC86800430028: saving join properties twins
+2019-01-04 01:47:20.624 47AAC86800430028: could not save twins with error: Operation timeout expired.
+2019-01-04 01:47:20.626 47AAC86800430028: join request could not save twins, join refused
