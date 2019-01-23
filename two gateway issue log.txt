@@ -1,0 +1,1056 @@
+[BEGIN] 2019/1/23 15:10:01
+pi@raspberrypi:~ $ iotedge logs LoRaWanNetworkSrvModule
+2019-01-23 04:20:52.512 Starting LoRaWAN Server...
+2019-01-23 04:20:54.983 Getting properties from module twin...
+2019-01-23 04:21:04.118 Facade function url: https://todaairfunction.azurewebsites.net/api/
+2019-01-23 04:21:05.133 LoRaWAN server started on port 1680
+2019-01-23 04:21:17.009 Statistic: {"stat":{"time":"2019-01-23 04:21:16 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":0.0,"dwnb":0,"txnb":0}}
+2019-01-23 04:21:46.886 Statistic: {"stat":{"time":"2019-01-23 04:21:46 GMT","rxnb":0,"rxok":0,"rxfw":0,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 04:21:51.606 Physical dataUp {"rxpk":[{"tmst":67122371,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-23,"size":214,"data":"QAIAAAAAAAACWtjGj/nwh1T1MXX/jiDec9h4uoHnM+kRG7rCXZ0E7XUJ30D3BZAlsGi6fq1i7qcKUKRa5xgsFEYyb4XYGnbV3rTgemIiaD6r8MsOBWjEdwnKfyHQ16bikeW4cZq9J58kqu1linqhoBpZF0libNoMl7smJ+Y/HzHzonmFPgIApOQIuD10bGVDZUj8p33IojMeVP8ETUMJDhgnuWlTEvdAg/b5/iHNnc2++NGstLaAFzXsbkMcP+K0wM+t7A230TNxHS8aylt5d6AiaiU8nA=="}]}
+2019-01-23 04:21:55.518 Physical dataUp {"rxpk":[{"tmst":71037731,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-23,"size":214,"data":"QAIAAAAAAQACOLeVBPXkjQ2w19XCZJPP/6qhMfZfLfTbLN8Q455qRed1SPQN50/Zsee93M/kJZMApYJDLyfXgB1vMcM5HsHa5N5oYjdjt+xqgFUlpX9ZrXOZX2BZKFk2HSmK/PXvQ1uasf3TvyYVdZuiWXhra/oVDnjMNsggCoWCXuyXTNqDZE3Ls6YY9TsH0MRxszEcMwHaPQZeanVIikGXf6JhTMkWb2PvoTUmLykLsApWt1j1jEThqYyTqIVfDox+YOfZnN0RTb1psIZI9D7YRt5oTQ=="}]}
+2019-01-23 04:21:59.420 Physical dataUp {"rxpk":[{"tmst":74935547,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-23,"size":214,"data":"QAIAAAAAAgAC9lFKa1Yh2Efil2Et0fE4IOjemytjg09Z0c2NtNt31Xjam9CRSqt6rt/F/pCaRCG3IHFqk0ubvbgtXlmT48oTV+9+PKa3ZVtzsMrOS44oMRARUKaMXlCvmEb/ifY8JeY6h3hqZrOhSAoPIDPjy+7l2bO91m6r8QTAef/IN+WmNEsyLUaPM0OnDUpFSLvFwNo6TnFxv6IZoH/mIWfb1Hi4UtxAN+rChgqFAs8kgTASNfWLcwnjsehO2/LdaFHm/8fB0J393mvXwnavcROO+w=="}]}
+2019-01-23 04:22:02.957 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:02.957 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:03.038 TD00000000000002: getting twins
+2019-01-23 04:22:03.038 TD00000000000002: getting twins
+2019-01-23 04:22:03.316 Physical dataUp {"rxpk":[{"tmst":78833356,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-25,"size":214,"data":"QAIAAAAAAwACemToSRQPekY4hGWMYDy7asr4309B7Xe8urys3DX5o8LPG86PapMAzI4lEqFhGGzbQueUAqB6tLQq+Arob8c+cRsOm8xeZmgtdRKJRqJqDxaTTdlU9d7wBSpWtjgP57/u68E9r5/O5JoFKl3QCi+2dHMigMgGGdRIVDQ/daPI0aWymBZ9YamkfHlhkxVojda8ZZDiF9DabI+ci3VS3aT/ZPSj1qq3SnvZ85A8z38jpsqv4N0ARgQuyR7OGrIyVksQmjuUdh7L4t5ye+Omtg=="}]}
+2019-01-23 04:22:03.604 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:03.605 TD00000000000002: getting twins
+2019-01-23 04:22:05.765 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:05.766 TD00000000000002: getting twins
+2019-01-23 04:22:07.210 Physical dataUp {"rxpk":[{"tmst":82731667,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-25,"size":214,"data":"QAIAAAAABAACDsvdHl8qOAvTMGWOxJxIqIiKfEEwrT4CH2Oo+nHOhsRVdx069IJQBkseUKo2Crztch8OcFL14yoswTYr3N5MUd62qygc3yTcv+IxJcKFW8XunrI2jjI/Wq2/WrQvlrOP608l4LtQJyKWB8GbCiZmBImcOPTwWuwZmBTzA7AsZdQmHwQwg0FLD4aUAiD4JqdlGUGH3rjrdLAcuNTL1i746E4x3gRmYnXfQKJ9tlsAadYw8I8DffsP7aHlVwJ3H92/xb7r7zjITg8VExLN6Q=="}]}
+2019-01-23 04:22:07.509 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:07.511 TD00000000000002: getting twins
+2019-01-23 04:22:11.110 Physical dataUp {"rxpk":[{"tmst":86629483,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-22,"size":214,"data":"QAIAAAAABQACK2jJkkv6nU1hbEiEYGByFkj6v1/gLt6IxiIizFZeV3zRiPprfOAukB493EekXxaPY2vc5Pel8db9SWTd+E8mvF0T46i45JpmxwgqreA2asfXjS37ejDWMJgRNswS93IJTfxdQdQcI23BgDrULCB80hu9ZnWX6Dw530G02xdq8HGrHlbIV5pjTLZk36ElEdV6VKrmd9uWIY/aa0wWhzhbHknoEf/qRKu8Yt0kwRDLGOR7zWkaxtY1h3I0dQy2dMEqbcfbl7cMdU5Gykccyw=="}]}
+2019-01-23 04:22:11.395 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:11.396 TD00000000000002: getting twins
+2019-01-23 04:22:13.850 TD00000000000002: could not get twins with error: 'sender260' is closed
+2019-01-23 04:22:13.850 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 04:22:13.858 00000002: device is not our device, ignore message
+2019-01-23 04:22:13.860 00000002: processing time: 00:00:02.7492063
+2019-01-23 04:22:15.006 Physical dataUp {"rxpk":[{"tmst":90527300,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-21,"size":214,"data":"QAIAAAAABgACEQ8WS00mKCKzUb82H1KApuaRYmj4y2wWpTxCje/9R6zar3cfYn3/2FPWOeIEektuDdJ2S8rURZhrAAoP7js1SU/qq2WMxSuuKN/h89kVXa8CPgX4P5nYGk+STe3bwT23TRNnby9EkITpWUdO+EnYq8A7N7b0SJSrIGjfJkD3Cy2iLE6Wj+UDKtw1IRQ5m74UEfO5L5qjmWA4X7DIfNRRyC29VhvRffuos3G6AVgK5shnQhuNpXWypvzcBCafAHDT8gM6yPN8ObubRKRxhg=="}]}
+2019-01-23 04:22:15.256 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:15.258 TD00000000000002: getting twins
+2019-01-23 04:22:16.887 Statistic: {"stat":{"time":"2019-01-23 04:22:16 GMT","rxnb":8,"rxok":7,"rxfw":7,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 04:22:17.468 TD00000000000002: could not get twins with error: {"errorCode":409002,"trackingId":"16ee279a28b44d85be0cb34c01374b52-G:15-TimeStamp:01/23/2019 04:22:17","message":"Conflict","timestampUtc":"2019-01-23T04:22:17.223268Z"}
+2019-01-23 04:22:17.468 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 04:22:17.468 00000002: device is not our device, ignore message
+2019-01-23 04:22:17.468 00000002: processing time: 00:00:18.0488208
+2019-01-23 04:22:18.901 Physical dataUp {"rxpk":[{"tmst":94425107,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-27,"size":214,"data":"QAIAAAAABwAC9wG7PEb+JQNxMwX7TRfdrrVrddwDqzhQZ3xVXrNouji7Grk0aX6O7lDiKrfJ9AOX0awwLSF8yl662RzI2mNkmlwiQLWVQfCVBROipYdL2DfTfsCyCdSJ6uESF8vE87wqB3kGI2CZDYe4D4bVqSJbi6VW1UWEMjnBm95AQbGlbZh4SG5ZwaFAKazSAUPCMYkp0xoGI3UFtbqmxFgQ+0QN1C6uuiH+F4Rcy/t/f4qrN9ri7lSpB/H9uvv9mIXEbEZUG1bLLEJ3uj/jpBrTEQ=="}]}
+2019-01-23 04:22:19.167 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:19.169 TD00000000000002: getting twins
+2019-01-23 04:22:20.768 TD00000000000002: done getting twins
+2019-01-23 04:22:20.769 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:20.769 TD00000000000002: done getting twins
+2019-01-23 04:22:20.769 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:21.029 TD00000000000002: updating twins 1:0
+2019-01-23 04:22:21.146 TD00000000000002: ABP FCnt cache reset for multigateway
+2019-01-23 04:22:21.461 TD00000000000002: could not update twins with error: Service rejected the message with status: 404
+2019-01-23 04:22:21.461 TD00000000000002: valid frame counter, msg: 1 server: 0
+2019-01-23 04:22:21.515 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:21.713 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:21.838 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:22.806 Physical dataUp {"rxpk":[{"tmst":98322923,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-25,"size":214,"data":"QAIAAAAACAACTeEHd3hazk6II41os6LLndWpt677Ea+kjOYaD/HurLq7cOxpwK23C0/GBWwYRMnAvZHOBQRWncOB+cGMkVtydVZfOpOwwe6klHcP7xi3gUU4nWYIwTdlgSFCI+nhzPw/n3azap+BC9422ruYV5gxrDM5vRRNpddtQFib/ilFNGmvCugz9bxOnEP7nD1zIM3Bylgjfk545aWCfvLvyr5se2ay27am6E/4DzLPT6KuSl+VuBg05THWi3vBuvRGJ7qqkf78zaWgmAcYc5NVug=="}]}
+2019-01-23 04:22:23.467 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:23.469 TD00000000000002: getting twins
+2019-01-23 04:22:26.704 Physical dataUp {"rxpk":[{"tmst":102221235,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-25,"size":214,"data":"QAIAAAAACQACdGaHOs3C6qm6hblDlXCFoGBO5Pdf+tiiw3nWbQ8IIt6DjnZJQSy4bTUFaPSzj20E6enUh9o/Ky0BcFrEVLVrjZ4KTNXSHtQLfz82eyGLhyDJ7lMyK8pu2XKVvV7F68uiVbS2LoTqjw777uhSJrk4O1pRAxKTm1refJQoxAZXsHroK4ZuTz28ZmlioSbNJiFC48ra3Ix4kB4pnsIs22safT9QDcigFue1kdnVIvZvDqjv12sWyjn3HjF/66VODwbuRrpuXqYbupnHtaEfAQ=="}]}
+2019-01-23 04:22:26.961 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:26.962 TD00000000000002: getting twins
+2019-01-23 04:22:29.096 TD00000000000002: done getting twins
+2019-01-23 04:22:29.096 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:29.096 TD00000000000002: done getting twins
+2019-01-23 04:22:29.096 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:29.097 TD00000000000002: valid frame counter, msg: 0 server: 0
+2019-01-23 04:22:29.099 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:29.100 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:29.110 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:30.602 Physical dataUp {"rxpk":[{"tmst":106119139,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-25,"size":214,"data":"QAIAAAAACgACwCG4UGN0LCHfYZIc+ngfjpVaktoJYQyQu6O7WB8oY5tOav24R5NdfQODHnF0XyVIjZhWNgZB/+gTHTqEJ6U0a24/xsz6rI+zJYLM8b8q0Eo8NU5T7eXO88FpknVwKy/nhqdZ6W0H4smsZWBiisbiwtzP1q6w2DeFQb3zlEKhR7u8hSYqnGfDqw7qp2sF8qfuD5qBqQFZ/n1peEQ2A4ZY7oRoZVh6ULpCUUIrqPWF87+IYzwfysmQv4I6ZuZ+Y53ubLDuSFNVQZFvEAnN3g=="}]}
+2019-01-23 04:22:30.823 TD00000000000002: done getting twins
+2019-01-23 04:22:30.824 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:30.826 TD00000000000002: done getting twins
+2019-01-23 04:22:30.828 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:30.829 TD00000000000002: valid frame counter, msg: 3 server: 0
+2019-01-23 04:22:30.831 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:30.833 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:30.844 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:31.185 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:31.186 TD00000000000002: getting twins
+2019-01-23 04:22:34.499 Physical dataUp {"rxpk":[{"tmst":110016956,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-23,"size":214,"data":"QAIAAAAACwACJZacDWZAMPo+tf99iS6egvg55V/EYqrk2HfDFhOFO9FU594XSpYoIiiJpOTKcB2N9ey55Io1zrWVctJ5ATW5cI7OBnjHxQ6OOqdvj2Y9aX/Dg0fklpGt6BxZKbK27AJ+PhnTzpVCMpuI0mtfKbDkhA3q7Epb6fhiv+segAZ/hbqv82axhBb7diypjJq0e4wANAq4baNAH+wS6yGKqg13EVdulOZrgq3JdTk+vbQjL/QQsz9oxCLXx63V+C3t0efiui6DXiRRta/CBTHJPg=="}]}
+2019-01-23 04:22:34.745 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:34.747 TD00000000000002: getting twins
+2019-01-23 04:22:35.695 TD00000000000002: done getting twins
+2019-01-23 04:22:35.695 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:35.695 TD00000000000002: done getting twins
+2019-01-23 04:22:35.695 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:35.696 TD00000000000002: valid frame counter, msg: 4 server: 0
+2019-01-23 04:22:35.697 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:35.697 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:35.703 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:37.408 TD00000000000002: done getting twins
+2019-01-23 04:22:37.409 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:37.409 TD00000000000002: done getting twins
+2019-01-23 04:22:37.410 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:37.412 TD00000000000002: valid frame counter, msg: 9 server: 0
+2019-01-23 04:22:37.414 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:37.415 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:37.426 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:38.400 Physical dataUp {"rxpk":[{"tmst":113914771,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-27,"size":214,"data":"QAIAAAAADAACZnqhTlHg7TqP7x/bJ+QapP/nM45o4J99R7ltGai9o6zy8RIZh1nQm1bGhfJaFrpnoj1LR8zVCySYxDtXXo+O8RH2TAhNehfSfw85JFdF2dYHGjAR8GG08URri1CzqcrvejTQ8TQyunYSkLFp2bv4dlZoBgfV8bZg/6r+nNzWPeUx2Y9Y0w8+YmoS1RQBuKLDBseJF1SzMNwMv+JT2d1dXW9zb3/pPEQtDblpx2z8o91o5mQcF1CjYED9Zsqq0ZZAzCmsqUcw853uBwvYdw=="}]}
+2019-01-23 04:22:38.646 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:38.649 TD00000000000002: getting twins
+2019-01-23 04:22:42.294 Physical dataUp {"rxpk":[{"tmst":117812588,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-23,"size":214,"data":"QAIAAAAADQACy8OFH73rpVScWRGLoXBgymEo0IqGuYauP3vKGkuJPm7E792ZIZOttWzLsq2RjnDY0iIZ4QQjnNni6dKRxzmfPSA0mMYbDQz0dY5OTSLjWkHZl2PrMYRVLLkmdKzQ++uUWFU3E2WrUcH2UERvJu4zGDgq7JFoEtVGbXJdKwz5DnXcHYL2wzXB3uyPS7eTqYRHAWCUFLixeVYwQfvFFczDhQhWihWjKRUOpGMqAuENFIyUtfXT/dBpY9Exn9iUJ4pMs3E2FK+Kqc2ugtDAew=="}]}
+2019-01-23 04:22:42.531 TD00000000000002: done getting twins
+2019-01-23 04:22:42.532 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:42.533 TD00000000000002: done getting twins
+2019-01-23 04:22:42.533 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:42.534 TD00000000000002: valid frame counter, msg: 12 server: 0
+2019-01-23 04:22:42.536 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:42.537 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:42.552 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:42.648 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:42.650 TD00000000000002: getting twins
+2019-01-23 04:22:42.804 TD00000000000002: done getting twins
+2019-01-23 04:22:42.804 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:42.804 TD00000000000002: done getting twins
+2019-01-23 04:22:42.805 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:42.805 TD00000000000002: valid frame counter, msg: 10 server: 0
+2019-01-23 04:22:42.806 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:42.808 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:42.818 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:42.946 TD00000000000002: done getting twins
+2019-01-23 04:22:42.946 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:42.946 TD00000000000002: done getting twins
+2019-01-23 04:22:42.947 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:42.947 TD00000000000002: valid frame counter, msg: 6 server: 0
+2019-01-23 04:22:42.947 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:42.949 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:42.959 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:46.190 Physical dataUp {"rxpk":[{"tmst":121710884,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-22,"size":214,"data":"QAIAAAAADgAC3+Dw+F73aZR0cVhQ8Uwv92+JIZkE5zkKfJMBL1avkcWsBGC/Oa6xysb+CMUdOVlC+GhzNlFi58vZCtuadcRMSJ5A1If16sSblcH2YTBf8kM1trm2eLlDBY8HKSJY5JXGFkd/nwkQ0x1wDcDK+n88piPSiPocggc7xGhFm3jU92fBvjaHPH4zKs3kEyZDt0t3BJzXy6H2G803gcLrpFPq68fLJWlED//qo1p5RGGj15meJCaAeTi2psha1A8zb8onoI0WDZKQ2xvICApReA=="}]}
+2019-01-23 04:22:46.446 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:46.447 TD00000000000002: getting twins
+2019-01-23 04:22:46.882 Statistic: {"stat":{"time":"2019-01-23 04:22:46 GMT","rxnb":11,"rxok":8,"rxfw":8,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 04:22:47.755 TD00000000000002: done getting twins
+2019-01-23 04:22:47.755 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:47.755 TD00000000000002: done getting twins
+2019-01-23 04:22:47.755 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:47.755 TD00000000000002: valid frame counter, msg: 13 server: 0
+2019-01-23 04:22:47.756 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:47.757 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:47.762 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:50.096 Physical dataUp {"rxpk":[{"tmst":125608707,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-26,"size":214,"data":"QAIAAAAADwACBdMpTRqy8y63Qhl50k2vhJEhqhDucgBgloZ2lWvUljYVQjWu1bFng58K/Fy8XMUHHZyI6cEn/In3oiVjNyCArTTjYp86OdGIWiYIf7h/0kHj7VQIsu+rXYXlNUewWbNgS1J1PIwSXgp/cBDSLqimHdvJlMxhuCvZGBeZVCssCTl75ed8BWUmo6a7VsYkpcAf5xIMwEG5q4fvRDrchjnnhnZjyp0OOxcO8R6wbcAQYBXtmPkK+yt/+PSmSysD2QXcwpZhJAFErV0PexOXMA=="}]}
+2019-01-23 04:22:50.351 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:50.353 TD00000000000002: getting twins
+2019-01-23 04:22:51.547 TD00000000000002: done getting twins
+2019-01-23 04:22:51.547 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:51.548 TD00000000000002: done getting twins
+2019-01-23 04:22:51.548 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:51.549 TD00000000000002: valid frame counter, msg: 8 server: 0
+2019-01-23 04:22:51.550 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:51.550 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:51.555 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:53.989 Physical dataUp {"rxpk":[{"tmst":129506523,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-25,"size":214,"data":"QAIAAAAAEAACMJ13c5UKWFLzZx38Md2LCY9ae9iyiQ5+LOs1gpTH5QvCBzMN6Xn1oY9JC/XgJbDaTDlytNsETumm8J6x/jR8an3x9kGSXZtzSGLQ7ZlLXX+p3tLZAfBcrBSYjTLAwyPnXmykm1/UjtGBQehS3EBNlfhnf6hZfahEZZu76fr9ODYmrFt28I4uFEXeXdMMKReZjK4LpoVxqvOtDqODKDCDFxhp3XprCQDCOHlSsE9OHMMsrTuB66j0eJFRr4bdJynU9RBsfMG1If2j+RgtxA=="}]}
+2019-01-23 04:22:54.252 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:54.254 TD00000000000002: getting twins
+2019-01-23 04:22:57.887 Physical dataUp {"rxpk":[{"tmst":133404339,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-26,"size":214,"data":"QAIAAAAAEQACo8x0Kb8Zg72dvma/l+SJ+cF/gobT33POipjr4NABufRnZvUjzwinp6rmpqm/+QmHMyua2tOOvpfsSKPhYD6L5vIMMBltoSKg6Wb2uwkpFLeczkPdlkhiCxpEg1pzoQ7JpQ3NTnpO1jYxVroXUxUGMyFOOlYXj65kn01/tZArxKhk8eaLP61AGi3aa/PtWlXnZD/UE+3gt850wfC1lTf4xIVxzREVghC3SPKJGwKeTlxnsJIzzlzOQaUcI0BDApWZCoNGayP48hASxp5NDw=="}]}
+2019-01-23 04:22:58.029 TD00000000000002: done getting twins
+2019-01-23 04:22:58.029 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:22:58.030 TD00000000000002: done getting twins
+2019-01-23 04:22:58.030 TD00000000000002: processing message, device not in cache
+2019-01-23 04:22:58.031 TD00000000000002: valid frame counter, msg: 7 server: 0
+2019-01-23 04:22:58.032 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:22:58.033 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:22:58.045 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:22:58.190 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:22:58.192 TD00000000000002: getting twins
+2019-01-23 04:23:01.782 Physical dataUp {"rxpk":[{"tmst":137302147,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-27,"size":214,"data":"QAIAAAAAEgACP6sQuG67AyNqdrGK4BYCLu74KlV8cPjC3w7Ngrpi5mZhJLD7Hq9oRg6lnqTfT3Eper7pG73AsXadQFWeYgcQTySacGq+/E5v/yxaSa/Lqw7VV821fqonNZRDcYb0Yadn3sK9IdtwDHYtWzNdbrluIfGsxNtSJAAd87d+dUUQg7Qd1DwYC5SVvatZNvDy0Te4hCYPOVL1ZhENIeouEklX002GCoeJ5bp2psF+GPjAKLgKwEuwOGKbuer30kgM9W0XloGdtpbk8Q/OhgX6Uw=="}]}
+2019-01-23 04:23:02.079 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:02.082 TD00000000000002: getting twins
+2019-01-23 04:23:02.467 TD00000000000002: done getting twins
+2019-01-23 04:23:02.467 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:02.467 TD00000000000002: done getting twins
+2019-01-23 04:23:02.467 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:02.467 TD00000000000002: valid frame counter, msg: 16 server: 0
+2019-01-23 04:23:02.468 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:02.469 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:02.475 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:05.684 Physical dataUp {"rxpk":[{"tmst":141200460,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-25,"size":214,"data":"QAIAAAAAEwACC0UWL8WRxmmOfwb46CzG+76fPzPPqB3ok8azNlT8po8OIJ9SLwtEE8CXG+BgySXMZ4o8iegzGPS1Cuz8yc5F6P4QFalsXULh4+N9oKF36TQAhqcztrEhzV6CHHyobN3FhzXHzp88wy2w/2JmamoYMdPFc1r3nwZ6q7itNBRZv3CzSV8od6vCroEGVt1g6IDF6ekAL91p1KiE0gBIEDigeVLZt/64I+mA7YoSdYFmZBAXn8++noi7x/S+QKikgklk6slrwPdKD21OeLKFgg=="}]}
+2019-01-23 04:23:05.947 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:05.948 TD00000000000002: getting twins
+2019-01-23 04:23:07.585 TD00000000000002: done getting twins
+2019-01-23 04:23:07.585 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:07.585 TD00000000000002: done getting twins
+2019-01-23 04:23:07.585 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:07.586 TD00000000000002: valid frame counter, msg: 18 server: 0
+2019-01-23 04:23:07.586 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:07.587 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:07.599 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:08.853 TD00000000000002: done getting twins
+2019-01-23 04:23:08.854 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:08.854 TD00000000000002: done getting twins
+2019-01-23 04:23:08.854 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:08.854 TD00000000000002: valid frame counter, msg: 17 server: 0
+2019-01-23 04:23:08.854 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:08.855 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:08.860 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:09.583 Physical dataUp {"rxpk":[{"tmst":145098268,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-27,"size":214,"data":"QAIAAAAAFAACDgC0P2GriamXaio9F9WJMG98lBOfZhjEPSX1XjYllzkbv/UiW8Kg0If7pMpZk4ZRzvclukNyt8AnBikiha+KgM6U0OuMfEpsBusXPHh7JRK6V7IOdHn8O8AEqCjz/rIwQxEUGJ3RlvB+/XoCzLKKhyUJyktLOeVUOJErmdvuXLuFxUdZlF2G5h9kqzDdAbCyYToK2DxYc5VL/PEKjjztj4g8fUtPa8K5YJRH/5kIwcI4Ql/Gkubm4cba+BFf/P/GcE3jA2YEz6sl5ZK/9w=="}]}
+2019-01-23 04:23:09.827 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:09.828 TD00000000000002: getting twins
+2019-01-23 04:23:13.481 Physical dataUp {"rxpk":[{"tmst":148996091,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-23,"size":214,"data":"QAIAAAAAFQAC9C9WSaofCPfZXtAr0lu58NvC7Ae7/xELRU1BWAxKQWbzC5CzUuv+U2892mpB6RlKnB9XOIDKQK/3OP6Gu8JXBAXCbd+K+bt3xf5u2yURFltcnbvXqGS6e5rd2Lazxzjk0vqDMOM4rYF1aqcx89LPMysvf2jSDQ9O5lWW1ecLqQj4Lkze6OaRMD9Ibr9PHynj5BlFAADc+TB4Zx5JjBI0LdyMvLGxfJBdhow9E87PLErzAet0TknESjSO8UWyY7aVEsiFENsRyRVBicPH9g=="}]}
+2019-01-23 04:23:13.727 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:13.728 TD00000000000002: getting twins
+2019-01-23 04:23:14.620 TD00000000000002: done getting twins
+2019-01-23 04:23:14.937 TD00000000000002: done getting twins
+2019-01-23 04:23:14.937 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:14.938 TD00000000000002: valid frame counter, msg: 20 server: 1
+2019-01-23 04:23:14.938 TD00000000000002: decoding with: http://decodersample/api/DecoderValueSensor port: 2
+2019-01-23 04:23:16.879 Statistic: {"stat":{"time":"2019-01-23 04:23:16 GMT","rxnb":8,"rxok":7,"rxfw":7,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 04:23:16.886 TD00000000000002: done getting twins
+2019-01-23 04:23:16.886 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:16.886 TD00000000000002: done getting twins
+2019-01-23 04:23:16.886 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:16.887 TD00000000000002: valid frame counter, msg: 19 server: 0
+2019-01-23 04:23:16.889 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:16.891 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:16.898 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:17.373 Physical dataUp {"rxpk":[{"tmst":152893916,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-22,"size":214,"data":"QAIAAAAAFgACtTDQz19wtsxcur1XgnvI+jq30Qr5O2+VRetoYp91L83yoe27idjxkLYRfKm+4/k2CpNzbwSBQCcnYHjGRjFkDLZINNHsUKwEltLUjCaH4F3vfdSL2iGKxHgTD6LuC0Z0e/h9iLGw7FMlGIOo6k5sYHmrsLCQvKbNG5hL7YVfjx0uXj3mqLLf8L5BPfe+hpraf9MoB0Q+5eklhXu3xfsosboSPO7SbWVk79GP7vinnGFUPnXzmArLrX9hV+3ftsa3yK5LIspdGZNXr/K0vg=="}]}
+2019-01-23 04:23:17.654 TD00000000000002: done getting twins
+2019-01-23 04:23:17.656 TD00000000000002: done getting twins
+2019-01-23 04:23:17.656 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:17.656 TD00000000000002: valid frame counter, msg: 21 server: 1
+2019-01-23 04:23:17.656 TD00000000000002: decoding with: http://decodersample/api/DecoderValueSensor port: 2
+2019-01-23 04:23:17.727 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:17.727 TD00000000000002: getting twins
+2019-01-23 04:23:20.585 TD00000000000002: sending message {"time":null,"tmms":0,"tmst":148996091,"freq":486.3,"chan":4,"rfch":0,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-23,"lsnr":9.2,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":21,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217393480} to hub
+2019-01-23 04:23:20.585 TD00000000000002: sending message {"time":null,"tmms":0,"tmst":145098268,"freq":486.9,"chan":7,"rfch":0,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-27,"lsnr":9.8,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":20,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217389582} to hub
+2019-01-23 04:23:21.276 Physical dataUp {"rxpk":[{"tmst":156791723,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-26,"size":214,"data":"QAIAAAAAFwAC44O5vyzPVzlc8NAUCn5OX1wVLyd8Af7Zf1U7VLVJsQAUGGXU1baqmFVDQE8m2G/DrDTnSx147azv1hTXMGcKvcB8tBWHvXlJUmdNJVpb48sk9/FPX+zt2EReQQnN/fYPgUbmiLIbKM+7UOcfgs7TLjQRhroPn6Mi6DrI5zZ0qGHnfl1KHk3ejWZW/QG+TOCgMew/YmMVpDQQR0Q12VDQ3qFJZrYr/QUyf2ZSbgEq+4IxhxpA+KTzRJ6Dn2V8Lmae7y9zQjCoZSDG9hv76w=="}]}
+2019-01-23 04:23:22.601 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:22.603 TD00000000000002: getting twins
+2019-01-23 04:23:25.174 Physical dataUp {"rxpk":[{"tmst":160690019,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-26,"size":214,"data":"QAIAAAAAGAACO0I63TseeGH8LSpwQK85um43id/WtZ7j2Gnd2+vMItOlxC/5+ChZAxyrYHBOl+5Bo1jRQh5owDzZ9u7wqkW1w5V2hvufLfoIiHfhzZZlUzmvziq20eyXA6RwnZ9/IQP3gcvpZC8+mVxLLSd5n4TrIGM2IsHWz/Vpg0O6WQdZF4TnxRcxRUjJqCpkps3by4JkhrJTBnMq4D/bcYarnt0JYrWcG+NGQkR9w37AUl/miKJN7Bj1cVbULt1NNurdM0VVKScQeBk/kS6JsuzUTw=="}]}
+2019-01-23 04:23:25.525 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:25.526 TD00000000000002: getting twins
+2019-01-23 04:23:29.076 Physical dataUp {"rxpk":[{"tmst":164587851,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-27,"size":214,"data":"QAIAAAAAGQACeSV2j6qtR64C4az2IrGBwGcAxNJAnOn1olZcGoxHrAjcoppQhtT9I/z3OuyFR7xBQZYJ7q2rOlPdPBVJT7edQiPO6n/Zbio4wKzv/5rRKaeirswX84pc5W6QMAanO9WND7QoiEIk9oW3+Mr/hsSUDYIrIGkt/ip1U0XD+4NIhBJx6ZLrt5rFd2T7S3grTdxu1FFg1MNODUb2Opytlrw4akY11YEk61Txuw68KtpR3TzyhlOpCTcp5cn+miUxYw/oU48xTth83jF0ZIFTHw=="}]}
+2019-01-23 04:23:29.966 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:29.977 TD00000000000002: getting twins
+2019-01-23 04:23:31.829 TD00000000000002: sent message {"time":null,"tmms":0,"tmst":145098268,"freq":486.9,"chan":7,"rfch":0,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-27,"lsnr":9.8,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":20,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217389582} to hub
+2019-01-23 04:23:31.858 TD00000000000002: message '{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"}' sent to hub
+2019-01-23 04:23:31.872 TD00000000000002: updating twins 20:
+2019-01-23 04:23:31.872 TD00000000000002: processing time: 00:00:22.2902550
+2019-01-23 04:23:32.976 Physical dataUp {"rxpk":[{"tmst":168485667,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-27,"size":214,"data":"QAIAAAAAGgAClDuH2427lZaQYxxoIiU0bEIyBraY39bC4AOkGgiRw6lCM81OkcaMOkIUF0btc0hQSds8ZE9mPwhTL9W1tNev2f/RPTsHLUMYtOeCkTl8jpBsrkXZjPCKiGpQ7ZgmJa4KfTK5IBeNJChR4ASAEOwFTFaMCZrx5RMdDubL5TIO/2LQHKrwiF93vBjlnSGHA1PxmxIQEvXvjFUlSYqYXnHxf4999hNqh+u+YH8IGtmij+MfSojpqJTR24f06DH9X/9kOURCh5Lo4/0rY6qfeA=="}]}
+2019-01-23 04:23:33.908 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:33.909 TD00000000000002: getting twins
+2019-01-23 04:23:34.753 TD00000000000002: could not get twins with error: Operation timeout expired.
+2019-01-23 04:23:34.753 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 04:23:34.753 00000002: device is not our device, ignore message
+2019-01-23 04:23:34.753 00000002: processing time: 00:01:00.2546109
+2019-01-23 04:23:34.857 TD00000000000002: sent message {"time":null,"tmms":0,"tmst":148996091,"freq":486.3,"chan":4,"rfch":0,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-23,"lsnr":9.2,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":21,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217393480} to hub
+2019-01-23 04:23:34.861 TD00000000000002: message '{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"}' sent to hub
+2019-01-23 04:23:34.862 TD00000000000002: processing time: 00:00:21.3818778
+2019-01-23 04:23:36.872 Physical dataUp {"rxpk":[{"tmst":172383484,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-21,"size":214,"data":"QAIAAAAAGwACmCWEYQbma5WSy+NyXCMnIe3SBiwwbKS9HrsgiVzTKxPDK+Whheht59S2HRUItfG67HwlMW4fw4Tuqnh0I/8ZUlL2W5bhB1cokpyapZu3GewWwgr7aBJHAIbE9VKvaAPPBF1aBC4/u4GcY/zQrgKmajujUk2d7ejC39LLTz81BufFZOU6kjyXOOZ8OLf99zDMdVuioJY+2a/D7Pql52VEYFdXOXMqTKCTaP18fMAhEg/YNDzo3EI2c4jLwJJ05HYUo/BtLLiQq5w9EJpexw=="}]}
+2019-01-23 04:23:37.242 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:37.244 TD00000000000002: getting twins
+2019-01-23 04:23:39.468 TD00000000000002: done getting twins
+2019-01-23 04:23:39.469 TD00000000000002: done getting twins
+2019-01-23 04:23:39.469 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:39.469 TD00000000000002: valid frame counter, msg: 25 server: 1
+2019-01-23 04:23:39.469 TD00000000000002: decoding with: http://decodersample/api/DecoderValueSensor port: 2
+2019-01-23 04:23:39.488 TD00000000000002: sending message {"time":null,"tmms":0,"tmst":164587851,"freq":487.1,"chan":0,"rfch":1,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-27,"lsnr":9.8,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":25,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217409076} to hub
+2019-01-23 04:23:40.768 Physical dataUp {"rxpk":[{"tmst":176281299,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-27,"size":214,"data":"QAIAAAAAHAACh7KCygwy4Ngh2EnpxLUQSAY6Sk8pyl2E6BiFwF0e7o5nGyuD8MzC6QP3+F8nf2UxyX2WiIli5SvMr2xiWM7aw2LFOa7gm3wVgJFTsTy2Xxwl0i9GIo41Ym2Vh9dr7eBIqZ5HO+TsW1eZAmgFfJJzOeugPd81/hlrIXB49mMlxnaTd601H/nr3UMwXa02Fw8XCpqhAExXhX7C7w/F0qZTukwJN8XMcBdnrKFJkLFOx+ZZylm7ppgJGjCJQ2HUYMaSIipHKqINnW8xAIw4IA=="}]}
+2019-01-23 04:23:41.141 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:41.144 TD00000000000002: getting twins
+2019-01-23 04:23:43.367 TD00000000000002: sent message {"time":null,"tmms":0,"tmst":164587851,"freq":487.1,"chan":0,"rfch":1,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-27,"lsnr":9.8,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":25,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217409076} to hub
+2019-01-23 04:23:43.367 TD00000000000002: message '{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"}' sent to hub
+2019-01-23 04:23:43.368 TD00000000000002: processing time: 00:00:14.2919606
+2019-01-23 04:23:44.667 Physical dataUp {"rxpk":[{"tmst":180179604,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-23,"size":214,"data":"QAIAAAAAHQACUb6H50R92igZiyGGmI14ZjDCKS4HlhtUck8Aig3FotHhXSky1UghnRij07FpkmL5+lxb5nB2YZsiwwBXMNUiVEWnx2YRfuBGM12iL4JyGvMUytb3JZggR+kHAxBeExbaG2Uf5opYMTd3VMStEihC+C6M/AhPQoI1VVoTlRNvNpoUrMVpUqEEkLFrBJvH2Pv+XUxlUHRY9CW6l4HjYfOZugoPLuqZDTD+M19Q+VHaO7H1Lk9hvV0keaxvsKE0pG+RwZXXJOCs9a3DRjpjjw=="}]}
+2019-01-23 04:23:45.048 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:45.049 TD00000000000002: getting twins
+2019-01-23 04:23:46.450 TD00000000000002: could not get twins with error: Operation timeout expired.
+2019-01-23 04:23:46.451 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 04:23:46.452 00000002: device is not our device, ignore message
+2019-01-23 04:23:46.453 00000002: processing time: 00:01:00.2628605
+2019-01-23 04:23:46.888 Statistic: {"stat":{"time":"2019-01-23 04:23:46 GMT","rxnb":9,"rxok":8,"rxfw":8,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 04:23:46.935 TD00000000000002: done getting twins
+2019-01-23 04:23:46.935 TD00000000000002: done getting twins
+2019-01-23 04:23:46.935 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:46.936 TD00000000000002: valid frame counter, msg: 24 server: 1
+2019-01-23 04:23:46.936 TD00000000000002: decoding with: http://decodersample/api/DecoderValueSensor port: 2
+2019-01-23 04:23:46.942 TD00000000000002: sending message {"time":null,"tmms":0,"tmst":160690019,"freq":487.7,"chan":3,"rfch":1,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-26,"lsnr":9.5,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":24,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217405174} to hub
+2019-01-23 04:23:47.680 TD00000000000002: sent message {"time":null,"tmms":0,"tmst":160690019,"freq":487.7,"chan":3,"rfch":1,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","rssi":-26,"lsnr":9.5,"size":214,"data":{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"},"port":2,"fcnt":24,"eui":"TD00000000000002","gatewayid":"gateway2","edgets":1548217405174} to hub
+2019-01-23 04:23:47.681 TD00000000000002: message '{"value":"8AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C3031AD068277A18AFE71A145B253E49C"}' sent to hub
+2019-01-23 04:23:47.682 TD00000000000002: processing time: 00:00:22.5081244
+2019-01-23 04:23:48.566 Physical dataUp {"rxpk":[{"tmst":184077412,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-25,"size":214,"data":"QAIAAAAAHgACupNyvw9uALZLzVERnYndow9oP8y2TtwRxuyug0bNLy2gBQCymFIoHHs0YyCqm+5E8paD+ITei5picDlilTD3iO2wGC5GZKIWNewgjNIMPUSa8zj6aFSrBq+S7H+MDBt/lqNs2Kig2aptDAxqbG103GKIf3FfjpBZB5kLyIGU0KJ5qiMRIASwyHQB0cGUbRahVz5dDjXSsJMoQ0Tl/7wGoNIalIavZN3zn+bhZo6ZNWoXDlLwMeHoSU4PHsEKjApsuyupF46pKQvrvWFxwA=="}]}
+2019-01-23 04:23:48.813 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 04:23:48.814 TD00000000000002: getting twins
+2019-01-23 04:23:49.494 TD00000000000002: done getting twins
+2019-01-23 04:23:49.494 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:49.494 TD00000000000002: done getting twins
+2019-01-23 04:23:49.494 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:49.494 TD00000000000002: valid frame counter, msg: 28 server: 0
+2019-01-23 04:23:49.495 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:49.496 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:49.505 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:49.864 TD00000000000002: done getting twins
+2019-01-23 04:23:49.872 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:49.873 TD00000000000002: done getting twins
+2019-01-23 04:23:49.873 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:49.873 TD00000000000002: valid frame counter, msg: 29 server: 0
+2019-01-23 04:23:49.874 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:49.875 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:49.879 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:49.881 TD00000000000002: done getting twins
+2019-01-23 04:23:49.881 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:49.882 TD00000000000002: done getting twins
+2019-01-23 04:23:49.882 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:49.882 TD00000000000002: valid frame counter, msg: 27 server: 0
+2019-01-23 04:23:49.883 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:49.883 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:49.890 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:50.154 TD00000000000002: done getting twins
+2019-01-23 04:23:50.155 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 04:23:50.155 TD00000000000002: done getting twins
+2019-01-23 04:23:50.155 TD00000000000002: processing message, device not in cache
+2019-01-23 04:23:50.155 TD00000000000002: valid frame counter, msg: 26 server: 0
+2019-01-23 04:23:50.155 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 04:23:50.156 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 04:23:50.161 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 04:23:50.361 TD00000000000002: could not get twins with error: Operation timeout expired.
+2019-01-23 04:23:50.361 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 04:23:50.362 00000002: device is not our device, ignore message
+2019-01-23 04:23:50.362 00000002: processing time: 00:01:00.2665894
+2019-01-23 05:00:56.533 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:00:57.469 TD00000000000002: done getting twins
+2019-01-23 05:00:57.469 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:00:57.469 TD00000000000002: done getting twins
+2019-01-23 05:00:57.469 TD00000000000002: processing message, device not in cache
+2019-01-23 05:00:57.469 TD00000000000002: valid frame counter, msg: 9 server: 0
+2019-01-23 05:00:57.470 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:00:57.471 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:00:57.481 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:00:58.522 Physical dataUp {"rxpk":[{"tmst":337328900,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-23,"size":214,"data":"QAIAAAAADgAC3+Dw+F73aZR0cVhQ8Uwv92+JIZkE5zkKfJMBL1avkcWsBGC/Oa6xysb+CMUdOVlC+GhzNlFi58vZCtuadcRMSJ5A1If16sSblcH2YTBf8kM1trm2eLlDBY8HKSJY5JXGFkd/nwkQ0x1wDcDK+n88piPSiPocggc7xGhFm3jU92fBvjaHPH4zKs3kEyZDt0t3BJzXy6H2G803gcLrpFPq68fLJWlED//qo1p5RGGj15meJCaAeTi2psha1A8zb8onoI0WDZKQ2xvICApReA=="}]}
+2019-01-23 05:00:58.782 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:00:58.785 TD00000000000002: getting twins
+2019-01-23 05:00:58.927 TD00000000000002: done getting twins
+2019-01-23 05:00:58.927 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:00:58.927 TD00000000000002: done getting twins
+2019-01-23 05:00:58.927 TD00000000000002: processing message, device not in cache
+2019-01-23 05:00:58.927 TD00000000000002: valid frame counter, msg: 2 server: 0
+2019-01-23 05:00:58.928 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:00:58.928 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:00:58.938 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:00:59.372 TD00000000000002: done getting twins
+2019-01-23 05:00:59.372 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:00:59.372 TD00000000000002: done getting twins
+2019-01-23 05:00:59.372 TD00000000000002: processing message, device not in cache
+2019-01-23 05:00:59.373 TD00000000000002: valid frame counter, msg: 10 server: 0
+2019-01-23 05:00:59.373 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:00:59.374 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:00:59.383 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:00:59.783 TD00000000000002: done getting twins
+2019-01-23 05:00:59.796 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:00:59.796 TD00000000000002: done getting twins
+2019-01-23 05:00:59.796 TD00000000000002: processing message, device not in cache
+2019-01-23 05:00:59.954 TD00000000000002: updating twins 1:0
+2019-01-23 05:01:00.085 TD00000000000002: ABP FCnt cache reset for multigateway
+2019-01-23 05:01:00.403 TD00000000000002: could not update twins with error: Service rejected the message with status: 404
+2019-01-23 05:01:00.410 TD00000000000002: valid frame counter, msg: 1 server: 0
+2019-01-23 05:01:00.411 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:00.411 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:00.418 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:02.446 Physical dataUp {"rxpk":[{"tmst":341226716,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-22,"size":214,"data":"QAIAAAAADwACBdMpTRqy8y63Qhl50k2vhJEhqhDucgBgloZ2lWvUljYVQjWu1bFng58K/Fy8XMUHHZyI6cEn/In3oiVjNyCArTTjYp86OdGIWiYIf7h/0kHj7VQIsu+rXYXlNUewWbNgS1J1PIwSXgp/cBDSLqimHdvJlMxhuCvZGBeZVCssCTl75ed8BWUmo6a7VsYkpcAf5xIMwEG5q4fvRDrchjnnhnZjyp0OOxcO8R6wbcAQYBXtmPkK+yt/+PSmSysD2QXcwpZhJAFErV0PexOXMA=="}]}
+2019-01-23 05:01:02.695 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:02.697 TD00000000000002: getting twins
+2019-01-23 05:01:04.093 TD00000000000002: done getting twins
+2019-01-23 05:01:04.093 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:04.093 TD00000000000002: done getting twins
+2019-01-23 05:01:04.093 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:04.093 TD00000000000002: valid frame counter, msg: 8 server: 0
+2019-01-23 05:01:04.094 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:04.095 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:04.107 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:05.773 TD00000000000002: done getting twins
+2019-01-23 05:01:05.773 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:05.774 TD00000000000002: done getting twins
+2019-01-23 05:01:05.774 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:05.776 TD00000000000002: valid frame counter, msg: 6 server: 0
+2019-01-23 05:01:05.777 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:05.778 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:05.788 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:06.318 Physical dataUp {"rxpk":[{"tmst":345125020,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-20,"size":214,"data":"QAIAAAAAEAACMJ13c5UKWFLzZx38Md2LCY9ae9iyiQ5+LOs1gpTH5QvCBzMN6Xn1oY9JC/XgJbDaTDlytNsETumm8J6x/jR8an3x9kGSXZtzSGLQ7ZlLXX+p3tLZAfBcrBSYjTLAwyPnXmykm1/UjtGBQehS3EBNlfhnf6hZfahEZZu76fr9ODYmrFt28I4uFEXeXdMMKReZjK4LpoVxqvOtDqODKDCDFxhp3XprCQDCOHlSsE9OHMMsrTuB66j0eJFRr4bdJynU9RBsfMG1If2j+RgtxA=="}]}
+2019-01-23 05:01:06.579 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:06.580 TD00000000000002: getting twins
+2019-01-23 05:01:09.060 TD00000000000002: done getting twins
+2019-01-23 05:01:09.061 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:09.061 TD00000000000002: done getting twins
+2019-01-23 05:01:09.061 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:09.061 TD00000000000002: valid frame counter, msg: 14 server: 0
+2019-01-23 05:01:09.062 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:09.062 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:09.073 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:10.218 Physical dataUp {"rxpk":[{"tmst":349022835,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-22,"size":214,"data":"QAIAAAAAEQACo8x0Kb8Zg72dvma/l+SJ+cF/gobT33POipjr4NABufRnZvUjzwinp6rmpqm/+QmHMyua2tOOvpfsSKPhYD6L5vIMMBltoSKg6Wb2uwkpFLeczkPdlkhiCxpEg1pzoQ7JpQ3NTnpO1jYxVroXUxUGMyFOOlYXj65kn01/tZArxKhk8eaLP61AGi3aa/PtWlXnZD/UE+3gt850wfC1lTf4xIVxzREVghC3SPKJGwKeTlxnsJIzzlzOQaUcI0BDApWZCoNGayP48hASxp5NDw=="}]}
+2019-01-23 05:01:10.481 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:10.483 TD00000000000002: getting twins
+2019-01-23 05:01:11.949 TD00000000000002: done getting twins
+2019-01-23 05:01:11.949 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:11.949 TD00000000000002: done getting twins
+2019-01-23 05:01:11.949 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:11.949 TD00000000000002: valid frame counter, msg: 13 server: 0
+2019-01-23 05:01:11.950 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:11.950 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:11.962 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:14.116 Physical dataUp {"rxpk":[{"tmst":352920651,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-22,"size":214,"data":"QAIAAAAAEgACP6sQuG67AyNqdrGK4BYCLu74KlV8cPjC3w7Ngrpi5mZhJLD7Hq9oRg6lnqTfT3Eper7pG73AsXadQFWeYgcQTySacGq+/E5v/yxaSa/Lqw7VV821fqonNZRDcYb0Yadn3sK9IdtwDHYtWzNdbrluIfGsxNtSJAAd87d+dUUQg7Qd1DwYC5SVvatZNvDy0Te4hCYPOVL1ZhENIeouEklX002GCoeJ5bp2psF+GPjAKLgKwEuwOGKbuer30kgM9W0XloGdtpbk8Q/OhgX6Uw=="}]}
+2019-01-23 05:01:14.369 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:14.370 TD00000000000002: getting twins
+2019-01-23 05:01:18.016 Physical dataUp {"rxpk":[{"tmst":356818467,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-21,"size":214,"data":"QAIAAAAAEwACC0UWL8WRxmmOfwb46CzG+76fPzPPqB3ok8azNlT8po8OIJ9SLwtEE8CXG+BgySXMZ4o8iegzGPS1Cuz8yc5F6P4QFalsXULh4+N9oKF36TQAhqcztrEhzV6CHHyobN3FhzXHzp88wy2w/2JmamoYMdPFc1r3nwZ6q7itNBRZv3CzSV8od6vCroEGVt1g6IDF6ekAL91p1KiE0gBIEDigeVLZt/64I+mA7YoSdYFmZBAXn8++noi7x/S+QKikgklk6slrwPdKD21OeLKFgg=="}]}
+2019-01-23 05:01:18.264 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:18.265 TD00000000000002: getting twins
+2019-01-23 05:01:18.817 TD00000000000002: done getting twins
+2019-01-23 05:01:18.817 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:18.818 TD00000000000002: done getting twins
+2019-01-23 05:01:18.818 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:18.819 TD00000000000002: valid frame counter, msg: 16 server: 0
+2019-01-23 05:01:18.819 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:18.820 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:18.825 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:21.913 Physical dataUp {"rxpk":[{"tmst":360716283,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-22,"size":214,"data":"QAIAAAAAFAACDgC0P2GriamXaio9F9WJMG98lBOfZhjEPSX1XjYllzkbv/UiW8Kg0If7pMpZk4ZRzvclukNyt8AnBikiha+KgM6U0OuMfEpsBusXPHh7JRK6V7IOdHn8O8AEqCjz/rIwQxEUGJ3RlvB+/XoCzLKKhyUJyktLOeVUOJErmdvuXLuFxUdZlF2G5h9kqzDdAbCyYToK2DxYc5VL/PEKjjztj4g8fUtPa8K5YJRH/5kIwcI4Ql/Gkubm4cba+BFf/P/GcE3jA2YEz6sl5ZK/9w=="}]}
+2019-01-23 05:01:22.172 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:22.174 TD00000000000002: getting twins
+2019-01-23 05:01:23.599 Statistic: {"stat":{"time":"2019-01-23 05:01:23 GMT","rxnb":10,"rxok":8,"rxfw":8,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 05:01:25.806 Physical dataUp {"rxpk":[{"tmst":364614588,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-21,"size":214,"data":"QAIAAAAAFQAC9C9WSaofCPfZXtAr0lu58NvC7Ae7/xELRU1BWAxKQWbzC5CzUuv+U2892mpB6RlKnB9XOIDKQK/3OP6Gu8JXBAXCbd+K+bt3xf5u2yURFltcnbvXqGS6e5rd2Lazxzjk0vqDMOM4rYF1aqcx89LPMysvf2jSDQ9O5lWW1ecLqQj4Lkze6OaRMD9Ibr9PHynj5BlFAADc+TB4Zx5JjBI0LdyMvLGxfJBdhow9E87PLErzAet0TknESjSO8UWyY7aVEsiFENsRyRVBicPH9g=="}]}
+2019-01-23 05:01:26.076 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:26.078 TD00000000000002: getting twins
+2019-01-23 05:01:27.914 TD00000000000002: done getting twins
+2019-01-23 05:01:27.914 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:27.914 TD00000000000002: done getting twins
+2019-01-23 05:01:27.914 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:27.914 TD00000000000002: valid frame counter, msg: 17 server: 0
+2019-01-23 05:01:27.915 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:27.916 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:27.925 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:29.703 Physical dataUp {"rxpk":[{"tmst":368512412,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-20,"size":214,"data":"QAIAAAAAFgACtTDQz19wtsxcur1XgnvI+jq30Qr5O2+VRetoYp91L83yoe27idjxkLYRfKm+4/k2CpNzbwSBQCcnYHjGRjFkDLZINNHsUKwEltLUjCaH4F3vfdSL2iGKxHgTD6LuC0Z0e/h9iLGw7FMlGIOo6k5sYHmrsLCQvKbNG5hL7YVfjx0uXj3mqLLf8L5BPfe+hpraf9MoB0Q+5eklhXu3xfsosboSPO7SbWVk79GP7vinnGFUPnXzmArLrX9hV+3ftsa3yK5LIspdGZNXr/K0vg=="}]}
+2019-01-23 05:01:29.974 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:29.975 TD00000000000002: getting twins
+2019-01-23 05:01:30.161 TD00000000000002: done getting twins
+2019-01-23 05:01:30.161 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:30.162 TD00000000000002: done getting twins
+2019-01-23 05:01:30.162 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:30.162 TD00000000000002: valid frame counter, msg: 19 server: 0
+2019-01-23 05:01:30.162 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:30.163 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:30.178 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:31.513 TD00000000000002: could not get twins with error: Operation timeout expired.
+2019-01-23 05:01:31.513 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 05:01:31.513 00000002: device is not our device, ignore message
+2019-01-23 05:01:31.515 00000002: processing time: 00:01:00.2761592
+2019-01-23 05:01:33.606 Physical dataUp {"rxpk":[{"tmst":372410219,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-22,"size":214,"data":"QAIAAAAAFwAC44O5vyzPVzlc8NAUCn5OX1wVLyd8Af7Zf1U7VLVJsQAUGGXU1baqmFVDQE8m2G/DrDTnSx147azv1hTXMGcKvcB8tBWHvXlJUmdNJVpb48sk9/FPX+zt2EReQQnN/fYPgUbmiLIbKM+7UOcfgs7TLjQRhroPn6Mi6DrI5zZ0qGHnfl1KHk3ejWZW/QG+TOCgMew/YmMVpDQQR0Q12VDQ3qFJZrYr/QUyf2ZSbgEq+4IxhxpA+KTzRJ6Dn2V8Lmae7y9zQjCoZSDG9hv76w=="}]}
+2019-01-23 05:01:34.171 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:34.173 TD00000000000002: getting twins
+2019-01-23 05:01:37.504 Physical dataUp {"rxpk":[{"tmst":376308044,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-22,"size":214,"data":"QAIAAAAAGAACO0I63TseeGH8LSpwQK85um43id/WtZ7j2Gnd2+vMItOlxC/5+ChZAxyrYHBOl+5Bo1jRQh5owDzZ9u7wqkW1w5V2hvufLfoIiHfhzZZlUzmvziq20eyXA6RwnZ9/IQP3gcvpZC8+mVxLLSd5n4TrIGM2IsHWz/Vpg0O6WQdZF4TnxRcxRUjJqCpkps3by4JkhrJTBnMq4D/bcYarnt0JYrWcG+NGQkR9w37AUl/miKJN7Bj1cVbULt1NNurdM0VVKScQeBk/kS6JsuzUTw=="}]}
+2019-01-23 05:01:37.772 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:37.773 TD00000000000002: getting twins
+2019-01-23 05:01:40.785 TD00000000000002: done getting twins
+2019-01-23 05:01:40.785 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:40.785 TD00000000000002: done getting twins
+2019-01-23 05:01:40.785 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:40.785 TD00000000000002: valid frame counter, msg: 18 server: 0
+2019-01-23 05:01:40.786 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:40.788 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:40.800 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:41.401 Physical dataUp {"rxpk":[{"tmst":380205851,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-23,"size":214,"data":"QAIAAAAAGQACeSV2j6qtR64C4az2IrGBwGcAxNJAnOn1olZcGoxHrAjcoppQhtT9I/z3OuyFR7xBQZYJ7q2rOlPdPBVJT7edQiPO6n/Zbio4wKzv/5rRKaeirswX84pc5W6QMAanO9WND7QoiEIk9oW3+Mr/hsSUDYIrIGkt/ip1U0XD+4NIhBJx6ZLrt5rFd2T7S3grTdxu1FFg1MNODUb2Opytlrw4akY11YEk61Txuw68KtpR3TzyhlOpCTcp5cn+miUxYw/oU48xTth83jF0ZIFTHw=="}]}
+2019-01-23 05:01:41.658 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:41.659 TD00000000000002: getting twins
+2019-01-23 05:01:43.674 TD00000000000002: done getting twins
+2019-01-23 05:01:43.674 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:43.674 TD00000000000002: done getting twins
+2019-01-23 05:01:43.675 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:43.675 TD00000000000002: valid frame counter, msg: 21 server: 0
+2019-01-23 05:01:43.676 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:43.678 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:43.689 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:45.294 Physical dataUp {"rxpk":[{"tmst":384104155,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-23,"size":214,"data":"QAIAAAAAGgAClDuH2427lZaQYxxoIiU0bEIyBraY39bC4AOkGgiRw6lCM81OkcaMOkIUF0btc0hQSds8ZE9mPwhTL9W1tNev2f/RPTsHLUMYtOeCkTl8jpBsrkXZjPCKiGpQ7ZgmJa4KfTK5IBeNJChR4ASAEOwFTFaMCZrx5RMdDubL5TIO/2LQHKrwiF93vBjlnSGHA1PxmxIQEvXvjFUlSYqYXnHxf4999hNqh+u+YH8IGtmij+MfSojpqJTR24f06DH9X/9kOURCh5Lo4/0rY6qfeA=="}]}
+2019-01-23 05:01:45.544 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:45.546 TD00000000000002: getting twins
+2019-01-23 05:01:48.518 TD00000000000002: done getting twins
+2019-01-23 05:01:48.518 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:48.518 TD00000000000002: done getting twins
+2019-01-23 05:01:48.518 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:48.518 TD00000000000002: valid frame counter, msg: 20 server: 0
+2019-01-23 05:01:48.518 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:48.519 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:48.525 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:49.196 Physical dataUp {"rxpk":[{"tmst":388001971,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-23,"size":214,"data":"QAIAAAAAGwACmCWEYQbma5WSy+NyXCMnIe3SBiwwbKS9HrsgiVzTKxPDK+Whheht59S2HRUItfG67HwlMW4fw4Tuqnh0I/8ZUlL2W5bhB1cokpyapZu3GewWwgr7aBJHAIbE9VKvaAPPBF1aBC4/u4GcY/zQrgKmajujUk2d7ejC39LLTz81BufFZOU6kjyXOOZ8OLf99zDMdVuioJY+2a/D7Pql52VEYFdXOXMqTKCTaP18fMAhEg/YNDzo3EI2c4jLwJJ05HYUo/BtLLiQq5w9EJpexw=="}]}
+2019-01-23 05:01:49.456 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:49.459 TD00000000000002: getting twins
+2019-01-23 05:01:50.496 TD00000000000002: done getting twins
+2019-01-23 05:01:50.496 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:50.496 TD00000000000002: done getting twins
+2019-01-23 05:01:50.496 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:50.497 TD00000000000002: valid frame counter, msg: 15 server: 0
+2019-01-23 05:01:50.497 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:50.497 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:50.501 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:53.093 Physical dataUp {"rxpk":[{"tmst":391899787,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-23,"size":214,"data":"QAIAAAAAHAACh7KCygwy4Ngh2EnpxLUQSAY6Sk8pyl2E6BiFwF0e7o5nGyuD8MzC6QP3+F8nf2UxyX2WiIli5SvMr2xiWM7aw2LFOa7gm3wVgJFTsTy2Xxwl0i9GIo41Ym2Vh9dr7eBIqZ5HO+TsW1eZAmgFfJJzOeugPd81/hlrIXB49mMlxnaTd601H/nr3UMwXa02Fw8XCpqhAExXhX7C7w/F0qZTukwJN8XMcBdnrKFJkLFOx+ZZylm7ppgJGjCJQ2HUYMaSIipHKqINnW8xAIw4IA=="}]}
+2019-01-23 05:01:53.351 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:53.352 TD00000000000002: getting twins
+2019-01-23 05:01:53.420 TD00000000000002: done getting twins
+2019-01-23 05:01:53.420 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:53.420 TD00000000000002: done getting twins
+2019-01-23 05:01:53.420 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:53.421 TD00000000000002: valid frame counter, msg: 26 server: 0
+2019-01-23 05:01:53.421 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:53.422 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:53.430 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:53.595 Statistic: {"stat":{"time":"2019-01-23 05:01:53 GMT","rxnb":9,"rxok":8,"rxfw":8,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 05:01:56.053 TD00000000000002: done getting twins
+2019-01-23 05:01:56.053 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:56.054 TD00000000000002: done getting twins
+2019-01-23 05:01:56.054 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:56.054 TD00000000000002: valid frame counter, msg: 24 server: 0
+2019-01-23 05:01:56.055 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:56.055 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:56.064 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:01:56.987 Physical dataUp {"rxpk":[{"tmst":395797604,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-21,"size":214,"data":"QAIAAAAAHQACUb6H50R92igZiyGGmI14ZjDCKS4HlhtUck8Aig3FotHhXSky1UghnRij07FpkmL5+lxb5nB2YZsiwwBXMNUiVEWnx2YRfuBGM12iL4JyGvMUytb3JZggR+kHAxBeExbaG2Uf5opYMTd3VMStEihC+C6M/AhPQoI1VVoTlRNvNpoUrMVpUqEEkLFrBJvH2Pv+XUxlUHRY9CW6l4HjYfOZugoPLuqZDTD+M19Q+VHaO7H1Lk9hvV0keaxvsKE0pG+RwZXXJOCs9a3DRjpjjw=="}]}
+2019-01-23 05:01:57.244 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:01:57.246 TD00000000000002: getting twins
+2019-01-23 05:01:58.934 TD00000000000002: done getting twins
+2019-01-23 05:01:58.935 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:01:58.935 TD00000000000002: done getting twins
+2019-01-23 05:01:58.935 TD00000000000002: processing message, device not in cache
+2019-01-23 05:01:58.935 TD00000000000002: valid frame counter, msg: 28 server: 0
+2019-01-23 05:01:58.935 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:01:58.936 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:01:58.951 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:00.315 TD00000000000002: done getting twins
+2019-01-23 05:02:00.316 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:00.316 TD00000000000002: done getting twins
+2019-01-23 05:02:00.316 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:00.316 TD00000000000002: valid frame counter, msg: 27 server: 0
+2019-01-23 05:02:00.317 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:00.318 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:00.327 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:00.889 Physical dataUp {"rxpk":[{"tmst":399695419,"chan":0,"rfch":1,"freq":487.100000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-23,"size":214,"data":"QAIAAAAAHgACupNyvw9uALZLzVERnYndow9oP8y2TtwRxuyug0bNLy2gBQCymFIoHHs0YyCqm+5E8paD+ITei5picDlilTD3iO2wGC5GZKIWNewgjNIMPUSa8zj6aFSrBq+S7H+MDBt/lqNs2Kig2aptDAxqbG103GKIf3FfjpBZB5kLyIGU0KJ5qiMRIASwyHQB0cGUbRahVz5dDjXSsJMoQ0Tl/7wGoNIalIavZN3zn+bhZo6ZNWoXDlLwMeHoSU4PHsEKjApsuyupF46pKQvrvWFxwA=="}]}
+2019-01-23 05:02:01.138 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:01.140 TD00000000000002: getting twins
+2019-01-23 05:02:01.375 TD00000000000002: done getting twins
+2019-01-23 05:02:01.375 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:01.375 TD00000000000002: done getting twins
+2019-01-23 05:02:01.375 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:01.375 TD00000000000002: valid frame counter, msg: 23 server: 0
+2019-01-23 05:02:01.376 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:01.377 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:01.386 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:04.791 Physical dataUp {"rxpk":[{"tmst":403593731,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-22,"size":214,"data":"QAIAAAAAHwACzCJyto+0o61CKTNwoDayFqN4CyPI3fHDHu1VSwXijtk6EvuBfeJt3fpkNKza7Y+D4mlH2/KDS1sl9V7k8ZXaJ5t0Oy4jxYfPvfzN2wQHzPqVk7rvSvtinnsgjP0vYjcxv41BpUIBqO/Hlie1W4DUoDl5CPrXIpAJtjROUiEPmn6hmy1m3+wo6PC537vtHsUw5Dvpi6gSQkukW5b6l3+w4t+cUr0PU2g4MDeFetj+/1p7GYd9+sKVRpUqdXSJPJ0E9FfN5mFY+Y+UubHGxw=="}]}
+2019-01-23 05:02:05.043 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:05.045 TD00000000000002: getting twins
+2019-01-23 05:02:08.681 Physical dataUp {"rxpk":[{"tmst":407491548,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-22,"size":214,"data":"QAIAAAAAIAACIxeuQiIGtx2lb4dn9mLooQ9FWA/JYpofUPMghIiBVySqfHM3u/NS9bc7Ecy5RB8AtiGnSlDLIJiQHEAl/6T1S7unQ7sNIi8JY1DirZ4/9R84CzRBFMzK+RQ4Muy1bXZKguYtLVzy2U+r7kRw6zJO7PIIbZ2yklhcMvvfQkUIQ7xBhQNWccVREpZbpdCiq4I7KuPoRKi8CNXUnER+AeIvjBOywtvPNcN88mrH1xILDEpmUyxxRpJlBSYhyj5pkxbfx7piG9QKKqrlOlBzXg=="}]}
+2019-01-23 05:02:08.957 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:08.959 TD00000000000002: getting twins
+2019-01-23 05:02:11.792 TD00000000000002: done getting twins
+2019-01-23 05:02:11.793 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:11.793 TD00000000000002: done getting twins
+2019-01-23 05:02:11.793 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:11.793 TD00000000000002: valid frame counter, msg: 30 server: 0
+2019-01-23 05:02:11.793 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:11.794 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:11.804 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:12.582 Physical dataUp {"rxpk":[{"tmst":411389363,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.5,"rssi":-22,"size":214,"data":"QAIAAAAAIQACwbEbbhqmC6YWBGwjBkN6LRDWxVrg7jheqbvT8uZv8W7h4lOvGJoEQoo91RySnvtnFqz+LLeyZlIsmkpjqOHlcKT7WYFxXDlrGWlbvkfAQO1Y0Uq5zti/WjV9ZkxxkgaHD1aNkTpv/LHQG41sqLp+tW7jTYubweF1+x4gQmBrlyIB4Zy7FyekfzObShl9UFPd8lxuNNFg+Icfc0P7qvTCBm90TKERraPpHu4zEME8tiftxdIc7VVdkmBAFqwbvBHxG7NZNpnntaFbzmgLgw=="}]}
+2019-01-23 05:02:12.713 TD00000000000002: done getting twins
+2019-01-23 05:02:12.713 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:12.714 TD00000000000002: done getting twins
+2019-01-23 05:02:12.714 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:12.714 TD00000000000002: valid frame counter, msg: 31 server: 0
+2019-01-23 05:02:12.714 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:12.715 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:12.724 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:12.858 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:12.861 TD00000000000002: getting twins
+2019-01-23 05:02:15.420 TD00000000000002: done getting twins
+2019-01-23 05:02:15.420 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:15.420 TD00000000000002: done getting twins
+2019-01-23 05:02:15.420 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:15.422 TD00000000000002: valid frame counter, msg: 29 server: 0
+2019-01-23 05:02:15.423 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:15.424 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:15.435 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:16.480 Physical dataUp {"rxpk":[{"tmst":415287171,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-25,"size":214,"data":"QAIAAAAAIgACyhHMPjSqo1yksJuT75XILPxsNV2rwsKIqAEjaoq8k7uKIjeIHTRJvNsYtzPsg5pul+IHoOgP6mzA85buBa32xVV4pfkky3Ozs1Jmxbt42qDVv1Z01JYqIO75RivFTvP2W8PPtuVEJcQD4RcdBbj1gfBJmrzwNiPoOYCq9rCWNLHJF4QNY1KKwqPTigxjjz1MOjV32HRxN8u/4cU/b05++pRYyCAOgwP5eE7DO1yrfnmBx5xH7XNCz/vgsv9xmFtKnDMqQTsDije3G2kr9A=="}]}
+2019-01-23 05:02:16.731 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:16.733 TD00000000000002: getting twins
+2019-01-23 05:02:20.387 Physical dataUp {"rxpk":[{"tmst":419184987,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-23,"size":214,"data":"QAIAAAAAIwACkzv21fwRLmyBop7i5Y/RsPMIffeOnQbyC+0UX8UNFOI4QDBEE1dZogBgAU84NnK4TE/WWGwo7jgGHMkPNKZwoHn8bjAuXeYmzafy8QEuMrnNv6IkN2Xx50eVhb7OkCawCpLifhLkzEf0Bny8p/dvkOREQ4K1vyw0labbMNq/E2JxAzy5N7xKhQQXcme26fhDYVWM1KOeEd9FzqZET9POtNHoHy1pCLE0iYRUgstGaEkTmSYW/lQK1HtuKq7RNF+28jcevPH371pCe/fdHQ=="}]}
+2019-01-23 05:02:20.638 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:20.639 TD00000000000002: getting twins
+2019-01-23 05:02:23.597 Statistic: {"stat":{"time":"2019-01-23 05:02:23 GMT","rxnb":8,"rxok":7,"rxfw":7,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 05:02:24.279 Physical dataUp {"rxpk":[{"tmst":423083291,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.8,"rssi":-23,"size":214,"data":"QAIAAAAAJAACQaPbcihtBcQh7EkHpWKe24Tgr1NYeIWBieH++7ZUrNiBSFrFEFpxrzLpY9xeq1p4VzcIErM5v4Rvvx0m65SFgGpq30rE982mmAVG9ABJpssB0GBjaPv0WdDiNHkpYC/evgJlplyv7Fy5CYCpzgYs+ffH6El97LY+brYSVYRzIywucpOXP6KHHa4gNVHNz9wjgFCpjF4EOe+t6ewsm8faTcfHTwvYJqaypgNBwBOG/7X20Fiy1WgCSf487MWu2Lpa/X7eZpc7gOVQ649GoQ=="}]}
+2019-01-23 05:02:24.547 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:24.548 TD00000000000002: getting twins
+2019-01-23 05:02:28.179 Physical dataUp {"rxpk":[{"tmst":426981108,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-21,"size":214,"data":"QAIAAAAAJQACIs5JkO8GaK5D4Hmae9tfgxL/1ESouu0yhz+VuW78pcxAXDLidrNGjeJTIuJp8tjZpK702bN4VrCPOTXyosdBPap4uSeWUVRIFxJo93rDURkj7M3Qvdd4dnCYW9csV4+NQkWum92EmxaYSv5ZoRJ5vwFLHXZ7+Dr9ZRkRx5SV6C62Z4/apGUgtZJ7tqfTtr6uGsNQVEXVWnwhh3bM0FtVpwunFrlHvrtH63ktnpFW0WMSIVu5Y0H34IWrd0hMy6NT3Nq3whhc1pRathW3MA=="}]}
+2019-01-23 05:02:28.430 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:28.432 TD00000000000002: getting twins
+2019-01-23 05:02:29.993 TD00000000000002: could not get twins with error: Operation timeout expired.
+2019-01-23 05:02:29.993 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 05:02:29.993 00000002: device is not our device, ignore message
+2019-01-23 05:02:29.994 00000002: processing time: 00:01:00.2910760
+2019-01-23 05:02:32.074 Physical dataUp {"rxpk":[{"tmst":430878932,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.8,"rssi":-21,"size":214,"data":"QAIAAAAAJgAC6VsOqEOlO/jrDB4zIcST9UPeaN9ATTUJumfpKfCPbGVbrkkx1iFAQ4CuILo8EmDiJDXEw6vxeek+UKFao80FqZIJOTar8vfxTy7Np7CcRzc83F6e5kS2Uwkg0C6AddcnjZjGP8QXe6A6lvofLooM8ZebWY0e6Ir4WL2z43s4v//uv2DpnLFvKaAFJp6smfxovCfpijmq27JZTEvlZwBd7vg1yEzpyZ+zED/VQK+Bubi0yDtk+htT7dhVyUimGTo5ovtGYbddjykw4okMEg=="}]}
+2019-01-23 05:02:32.325 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:32.327 TD00000000000002: getting twins
+2019-01-23 05:02:35.266 TD00000000000002: done getting twins
+2019-01-23 05:02:35.267 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:35.267 TD00000000000002: done getting twins
+2019-01-23 05:02:35.267 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:35.267 TD00000000000002: valid frame counter, msg: 38 server: 0
+2019-01-23 05:02:35.270 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:35.271 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:35.282 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:35.974 Physical dataUp {"rxpk":[{"tmst":434776755,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-20,"size":214,"data":"QAIAAAAAJwACo3yysKEwXLXp5dzOjxHoQW8DjhnhGZjLBWPzhs481780aj/U5gEFLDk/aeeFdXEJIj8hXeWIDNtnfV90gGhv2rHiHx+ITe0LAFEs0e1onUwCJtReJgG4qQX0nxXXxJMF1JQeZmUijBU33cNcrsVwmFn1KQRuo1F8j4BVcEt4z75ZF4zCLoTRuAdYpiKxEOt0tzIq9d0J5QkP+/plUIRvlUIGTSJMH7t8PidKTPYCez595hiCuZCUltYGKDSYweZCwyYRDNoKW8oGE2X6bg=="}]}
+2019-01-23 05:02:36.235 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:36.238 TD00000000000002: getting twins
+2019-01-23 05:02:37.884 TD00000000000002: done getting twins
+2019-01-23 05:02:37.884 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:37.885 TD00000000000002: done getting twins
+2019-01-23 05:02:37.885 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:37.886 TD00000000000002: valid frame counter, msg: 35 server: 0
+2019-01-23 05:02:37.886 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:37.887 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:37.902 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:38.826 TD00000000000002: done getting twins
+2019-01-23 05:02:38.826 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:38.826 TD00000000000002: done getting twins
+2019-01-23 05:02:38.826 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:38.826 TD00000000000002: valid frame counter, msg: 37 server: 0
+2019-01-23 05:02:38.827 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:38.827 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:38.860 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:39.868 Physical dataUp {"rxpk":[{"tmst":438674564,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.8,"rssi":-23,"size":214,"data":"QAIAAAAAKAAC963QdyOv08RBMRXR9R37z1kJt1h4jsZypgJAP5VJi3VtXiap+1Va0+1DZ+z85SfvzQNBe2b0yeDDmwI0H0DFCUeO4Mfd0UKPVisVsc6MyFEep5AV50s6KTdCBnhEYOJ9XIwo6IznmxRELYCgm6QqUSBw7S9aPwbAk4LwbVxBBeZKp1CA24RNGs97frxKgSJ75ZyaCvUjEfOH3Xj6V8geuLEck5EflY0PnfZU6zBV/GSRbohXf25+Zts/hoaJ0wE9pMHF4Ey/u8gBHKGN/w=="}]}
+2019-01-23 05:02:40.123 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:40.125 TD00000000000002: getting twins
+2019-01-23 05:02:41.290 TD00000000000002: done getting twins
+2019-01-23 05:02:41.290 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:41.290 TD00000000000002: done getting twins
+2019-01-23 05:02:41.290 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:41.290 TD00000000000002: valid frame counter, msg: 25 server: 0
+2019-01-23 05:02:41.290 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:41.291 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:41.296 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:43.021 TD00000000000002: done getting twins
+2019-01-23 05:02:43.021 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:43.021 TD00000000000002: done getting twins
+2019-01-23 05:02:43.022 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:43.022 TD00000000000002: valid frame counter, msg: 36 server: 0
+2019-01-23 05:02:43.022 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:43.023 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:43.033 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:43.769 Physical dataUp {"rxpk":[{"tmst":442572859,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-25,"size":214,"data":"QAIAAAAAKQACrVo9J51N5xEuczXdd9l/4vtCv0uHI2Rz8MFFsVuoaUda1Oo2NxhDIfyBwQxLB+DoJHKbqz1Wo4xX9vp9PywertWz3guHEB+bA3WRyWgn3HQ1tysjINFMj50xcwQmLygpX1h9yI/YeY5ITjeHo3eT6xupRmefF0q1K55R7fEwBzA/LzBoyZ/o0cFwaO31vD+y6SDaEoXl6xTSFrCzcpv9ELlwVN0msyOvHmbzXY7xHF63pBkrV+jfNTWiw0YPZfWW+5GOigYJm8ZeCJalNA=="}]}
+2019-01-23 05:02:44.026 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:44.028 TD00000000000002: getting twins
+2019-01-23 05:02:47.662 Physical dataUp {"rxpk":[{"tmst":446470683,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":11.2,"rssi":-22,"size":214,"data":"QAIAAAAAKgACZWvkPF9SPMOrnaQd5KsiBbw0PNPM9o84DiOvoz4cdeXuvNdaIpizI1Tr7ZgW5cwu8qP6Bxo5iRjOZ++gHwUYc9t96yy1SaX9IqIUmL6WO7n5PaZ+JINx0Phq+Sh+hTvWqgX5NMA+IODzYoLxxZXJZvh8KUCOPWDQl5uED1jCJLkpP0tKASyELGvHMK3cKJ0j+UPO/grLPZiALV+L+OjNq5FUhVDcDEzxytyhOw3TJXqTw9angFt7uYbfVBusUbXiTDiq8WrpN/s8J7plGg=="}]}
+2019-01-23 05:02:47.908 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:47.909 TD00000000000002: getting twins
+2019-01-23 05:02:51.562 Physical dataUp {"rxpk":[{"tmst":450368499,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":11.0,"rssi":-23,"size":214,"data":"QAIAAAAAKwACHS7yDfEgDttoHg6a308ZuRW4TKG5F5w2WODGcCSg+xUjtFB/ZmFB10evECBRMNLIdsHfPSPFdSZeKpkOGYQDNH3vfixvKjeIg2d+MY77R8sa4tsUd46mOrJz+h0leYUhlQg/NgQ+GUVjh4Df+V5BHwlvoI92p2cYuT4yOsIm9TbizbAKPwvUkG9HleIOUpJ6GNGFo0Kyd5TtW5K/lOwWvg1E7T7SRyb9XQsgbfV2Iow2WFVeGcnyxM+O5W5CQDhZB+k30uXmRusTm6AUog=="}]}
+2019-01-23 05:02:51.816 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:51.817 TD00000000000002: getting twins
+2019-01-23 05:02:53.599 Statistic: {"stat":{"time":"2019-01-23 05:02:53 GMT","rxnb":8,"rxok":8,"rxfw":8,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 05:02:55.457 Physical dataUp {"rxpk":[{"tmst":454266315,"chan":2,"rfch":1,"freq":487.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-22,"size":214,"data":"QAIAAAAALAACT1iG6KLqVz8fzxl4gNDwT1PMMgj3mObMXP41tRRA5FcF36Z0X3UMnS1Ze1oeyCZ4/SU94qqc+dtkFz5A+cnkJN3cMgaWJzAK7gZaBLouuRJr2GFmOIrOmIBo/8RX4m9wwTyJUuruxVw+vKP96z6um4gKWoCvMZe8vr0u2JEYFDi/eTepIclwk0nMbz0s9NZfpAi+KCqwzyKutCjl1W6MjHSvI4OVaQO8oeyKQG7SYO7DjrthyU8LkEqBgSKWknJQRwaknrOhsBHMqjrAkQ=="}]}
+2019-01-23 05:02:55.716 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:55.717 TD00000000000002: getting twins
+2019-01-23 05:02:56.510 TD00000000000002: done getting twins
+2019-01-23 05:02:56.510 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:02:56.510 TD00000000000002: done getting twins
+2019-01-23 05:02:56.510 TD00000000000002: processing message, device not in cache
+2019-01-23 05:02:56.511 TD00000000000002: valid frame counter, msg: 34 server: 0
+2019-01-23 05:02:56.513 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:02:56.513 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:02:56.524 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:02:59.355 Physical dataUp {"rxpk":[{"tmst":458164132,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.2,"rssi":-20,"size":214,"data":"QAIAAAAALQAC2v04EjLz8VhBtpIRw/dpqAkKj1ZNXKxQCZZoCwOwwU1Di6Epq1O9BIXh9nPVL7G28JCxj1u+q2ow4Io+XDYhujaCNKeLm2Ev//mNdcjF9EIoj7F9gm2bk4qk6qSjQEF69s/BdbcjMrI/kKc9XCwtFIRL5aPE+TL8yzNOUEBKChWcJSL97b/2UxN9IKnG5PK279jmIxPcHoD9+WCYzf5vm1Oi/9Pf7ZqXUrRpkcNLnugTDXTZfe3wYuD3/3bqtMH9DWmSUcPQErOVXPX+4g=="}]}
+2019-01-23 05:02:59.612 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:02:59.613 TD00000000000002: getting twins
+2019-01-23 05:03:00.535 TD00000000000002: done getting twins
+2019-01-23 05:03:00.535 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:00.535 TD00000000000002: done getting twins
+2019-01-23 05:03:00.535 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:00.535 TD00000000000002: valid frame counter, msg: 44 server: 0
+2019-01-23 05:03:00.536 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:00.536 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:00.541 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:02.099 TD00000000000002: done getting twins
+2019-01-23 05:03:02.100 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:02.100 TD00000000000002: done getting twins
+2019-01-23 05:03:02.100 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:02.100 TD00000000000002: valid frame counter, msg: 33 server: 0
+2019-01-23 05:03:02.102 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:02.104 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:02.131 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:03.208 TD00000000000002: done getting twins
+2019-01-23 05:03:03.208 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:03.208 TD00000000000002: done getting twins
+2019-01-23 05:03:03.209 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:03.209 TD00000000000002: valid frame counter, msg: 39 server: 0
+2019-01-23 05:03:03.209 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:03.210 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:03.221 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:03.259 Physical dataUp {"rxpk":[{"tmst":462062428,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-23,"size":214,"data":"QAIAAAAALgACl22iw2Fh6xLHdmQRZptAX4Q7XbL5Ox3UJxAPb1X5F9OCc6CzxEauckc0tgHOTqD9aX8owKuJG7pTFiCJeQJnVAzDdtF3/r1KQtRt1V0PGRjgjEtxnlYx1kt34a77WOsGv3Fw4LjpINISBN3Fnsf8jmE2ptN40hrURzaZjCFkWMia5vE36PFTq8lYRLI+ITr0oeZQ53K8GIeB/OkwCFolWh1xt3lldKjJwiNbXZGWNW0ZrOE2/KPTSHWwKRL5WEtMS9UvLpYZgPgrgz0DaQ=="}]}
+2019-01-23 05:03:03.553 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:03.556 TD00000000000002: getting twins
+2019-01-23 05:03:05.828 TD00000000000002: done getting twins
+2019-01-23 05:03:05.828 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:05.828 TD00000000000002: done getting twins
+2019-01-23 05:03:05.828 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:05.828 TD00000000000002: valid frame counter, msg: 42 server: 0
+2019-01-23 05:03:05.829 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:05.829 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:05.851 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:07.152 Physical dataUp {"rxpk":[{"tmst":465960252,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":8.8,"rssi":-21,"size":214,"data":"QAIAAAAALwACYz+3tohqo+1eCuUkfCiLDO77J8P9m9u8R6q21cnVsEpCO0we+MzzBi3p+Sz8nIPsKYjOlvFOE5z0mUggDdWhYGHWlYTecVI51vZg4KATChChEEanYioJVXCppf3BcURonJXqD/rpKFExxNkG54zCg8UadKmZBcwmGOHU5OxX6FaJeNVscMLUhsfCQ5oAh12BBIQG4EVVxJLrvgl4/k4qNIaovr0Gbhfl7SV/gsKiGGfuB+xtzjalQIqGs4RS67owud5l6zgNJf9BMQHmFw=="}]}
+2019-01-23 05:03:07.401 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:07.403 TD00000000000002: getting twins
+2019-01-23 05:03:08.134 TD00000000000002: could not get twins with error: {"errorCode":409002,"trackingId":"257076b5af854353900ddc0129f422bd-G:0-TimeStamp:01/23/2019 05:03:07","message":"Conflict","timestampUtc":"2019-01-23T05:03:07.8830589Z"}
+2019-01-23 05:03:08.134 TD00000000000002: an exact matching device could not be found on IoT Hub
+2019-01-23 05:03:08.135 00000002: device is not our device, ignore message
+2019-01-23 05:03:08.135 00000002: processing time: 00:00:59.4542204
+2019-01-23 05:03:09.706 TD00000000000002: done getting twins
+2019-01-23 05:03:09.706 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:09.706 TD00000000000002: done getting twins
+2019-01-23 05:03:09.706 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:09.707 TD00000000000002: valid frame counter, msg: 40 server: 0
+2019-01-23 05:03:09.707 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:09.708 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:09.717 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:11.054 Physical dataUp {"rxpk":[{"tmst":469858068,"chan":6,"rfch":0,"freq":486.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-41,"size":214,"data":"QAIAAAAAMAAC1kYcc9TqKieINMZ9z8vssVTPRikKj6e92u1wlOmuo6qKIOYS2RBghzdU2tn1SDgUmnS9pgusE1IJBB5U5kRF30/AnI2nyEYfHjsJnKjwmGblbvRWFxYq24EMwnk5KlNasTG5k1MkVO70DKoetPUfGGet552l5RhXy0ETqMIPOxKXCkAnVSHT3kdGiZynJWYmlu8sEL0hHxm+eL/6SW1HkhyhUF/pyTooxbrrgif/Mmts9veDanRApEoZjM4jFTpN8aG6A6GDbw49Q7P4FQ=="}]}
+2019-01-23 05:03:11.308 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:11.308 TD00000000000002: getting twins
+2019-01-23 05:03:14.718 TD00000000000002: done getting twins
+2019-01-23 05:03:14.718 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:14.718 TD00000000000002: done getting twins
+2019-01-23 05:03:14.718 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:14.718 TD00000000000002: valid frame counter, msg: 46 server: 0
+2019-01-23 05:03:14.719 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:14.720 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:14.731 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:14.816 TD00000000000002: done getting twins
+2019-01-23 05:03:14.816 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:14.816 TD00000000000002: done getting twins
+2019-01-23 05:03:14.816 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:14.817 TD00000000000002: valid frame counter, msg: 41 server: 0
+2019-01-23 05:03:14.817 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:14.817 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:14.827 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:15.896 Physical dataUp {"rxpk":[{"tmst":474706732,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.0,"rssi":-45,"size":214,"data":"QAIAAAAAAAACWtjGj/nwh1T1MXX/jiDec9h4uoHnM+kRG7rCXZ0E7XUJ30D3BZAlsGi6fq1i7qcKUKRa5xgsFEYyb4XYGnbV3rTgemIiaD6r8MsOBWjEdwnKfyHQ16bikeW4cZq9J58kqu1linqhoBpZF0libNoMl7smJ+Y/HzHzonmFPgIApOQIuD10bGVDZUj8p33IojMeVP8ETUMJDhgnuWlTEvdAg/b5/iHNnc2++NGstLaAFzXsbkMcP+K0wM+t7A230TNxHS8aylt5d6AiaiU8nA=="}]}
+2019-01-23 05:03:16.160 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:16.161 TD00000000000002: getting twins
+2019-01-23 05:03:18.532 TD00000000000002: done getting twins
+2019-01-23 05:03:18.935 TD00000000000002: done getting twins
+2019-01-23 05:03:18.935 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:18.935 TD00000000000002: invalid frame counter, msg: 0 server: 1
+2019-01-23 05:03:18.946 TD00000000000002: processing time: 00:00:03.0508581
+2019-01-23 05:03:19.463 TD00000000000002: done getting twins
+2019-01-23 05:03:19.464 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:19.464 TD00000000000002: done getting twins
+2019-01-23 05:03:19.464 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:19.464 TD00000000000002: valid frame counter, msg: 43 server: 0
+2019-01-23 05:03:19.466 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:19.471 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:19.482 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:19.806 Physical dataUp {"rxpk":[{"tmst":478616348,"chan":7,"rfch":0,"freq":486.900000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-43,"size":214,"data":"QAIAAAAAAQACOLeVBPXkjQ2w19XCZJPP/6qhMfZfLfTbLN8Q455qRed1SPQN50/Zsee93M/kJZMApYJDLyfXgB1vMcM5HsHa5N5oYjdjt+xqgFUlpX9ZrXOZX2BZKFk2HSmK/PXvQ1uasf3TvyYVdZuiWXhra/oVDnjMNsggCoWCXuyXTNqDZE3Ls6YY9TsH0MRxszEcMwHaPQZeanVIikGXf6JhTMkWb2PvoTUmLykLsApWt1j1jEThqYyTqIVfDox+YOfZnN0RTb1psIZI9D7YRt5oTQ=="}]}
+2019-01-23 05:03:20.053 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:20.053 TD00000000000002: getting twins
+2019-01-23 05:03:23.599 Statistic: {"stat":{"time":"2019-01-23 05:03:23 GMT","rxnb":7,"rxok":7,"rxfw":7,"ackr":100.0,"dwnb":0,"txnb":0}}
+2019-01-23 05:03:23.703 Physical dataUp {"rxpk":[{"tmst":482514163,"chan":4,"rfch":0,"freq":486.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":10.2,"rssi":-43,"size":214,"data":"QAIAAAAAAgAC9lFKa1Yh2Efil2Et0fE4IOjemytjg09Z0c2NtNt31Xjam9CRSqt6rt/F/pCaRCG3IHFqk0ubvbgtXlmT48oTV+9+PKa3ZVtzsMrOS44oMRARUKaMXlCvmEb/ifY8JeY6h3hqZrOhSAoPIDPjy+7l2bO91m6r8QTAef/IN+WmNEsyLUaPM0OnDUpFSLvFwNo6TnFxv6IZoH/mIWfb1Hi4UtxAN+rChgqFAs8kgTASNfWLcwnjsehO2/LdaFHm/8fB0J393mvXwnavcROO+w=="}]}
+2019-01-23 05:03:23.953 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:23.956 TD00000000000002: getting twins
+2019-01-23 05:03:27.601 Physical dataUp {"rxpk":[{"tmst":486411980,"chan":5,"rfch":0,"freq":486.500000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-41,"size":214,"data":"QAIAAAAAAwACemToSRQPekY4hGWMYDy7asr4309B7Xe8urys3DX5o8LPG86PapMAzI4lEqFhGGzbQueUAqB6tLQq+Arob8c+cRsOm8xeZmgtdRKJRqJqDxaTTdlU9d7wBSpWtjgP57/u68E9r5/O5JoFKl3QCi+2dHMigMgGGdRIVDQ/daPI0aWymBZ9YamkfHlhkxVojda8ZZDiF9DabI+ci3VS3aT/ZPSj1qq3SnvZ85A8z38jpsqv4N0ARgQuyR7OGrIyVksQmjuUdh7L4t5ye+Omtg=="}]}
+2019-01-23 05:03:27.873 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:27.875 TD00000000000002: getting twins
+2019-01-23 05:03:31.504 Physical dataUp {"rxpk":[{"tmst":490309787,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-45,"size":214,"data":"QAIAAAAABAACDsvdHl8qOAvTMGWOxJxIqIiKfEEwrT4CH2Oo+nHOhsRVdx069IJQBkseUKo2Crztch8OcFL14yoswTYr3N5MUd62qygc3yTcv+IxJcKFW8XunrI2jjI/Wq2/WrQvlrOP608l4LtQJyKWB8GbCiZmBImcOPTwWuwZmBTzA7AsZdQmHwQwg0FLD4aUAiD4JqdlGUGH3rjrdLAcuNTL1i746E4x3gRmYnXfQKJ9tlsAadYw8I8DffsP7aHlVwJ3H92/xb7r7zjITg8VExLN6Q=="}]}
+2019-01-23 05:03:31.774 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:31.776 TD00000000000002: getting twins
+2019-01-23 05:03:35.404 Physical dataUp {"rxpk":[{"tmst":494207611,"chan":3,"rfch":1,"freq":487.700000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.0,"rssi":-43,"size":214,"data":"QAIAAAAABQACK2jJkkv6nU1hbEiEYGByFkj6v1/gLt6IxiIizFZeV3zRiPprfOAukB493EekXxaPY2vc5Pel8db9SWTd+E8mvF0T46i45JpmxwgqreA2asfXjS37ejDWMJgRNswS93IJTfxdQdQcI23BgDrULCB80hu9ZnWX6Dw530G02xdq8HGrHlbIV5pjTLZk36ElEdV6VKrmd9uWIY/aa0wWhzhbHknoEf/qRKu8Yt0kwRDLGOR7zWkaxtY1h3I0dQy2dMEqbcfbl7cMdU5Gykccyw=="}]}
+2019-01-23 05:03:35.676 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:35.677 TD00000000000002: getting twins
+2019-01-23 05:03:37.330 TD00000000000002: done getting twins
+2019-01-23 05:03:37.330 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:37.331 TD00000000000002: done getting twins
+2019-01-23 05:03:37.331 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:37.331 TD00000000000002: valid frame counter, msg: 4 server: 0
+2019-01-23 05:03:37.331 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:37.332 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:37.343 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:37.470 TD00000000000002: done getting twins
+2019-01-23 05:03:37.470 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:37.470 TD00000000000002: done getting twins
+2019-01-23 05:03:37.470 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:37.470 TD00000000000002: valid frame counter, msg: 47 server: 0
+2019-01-23 05:03:37.471 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:37.472 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:37.481 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:38.609 TD00000000000002: done getting twins
+2019-01-23 05:03:38.609 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:38.609 TD00000000000002: done getting twins
+2019-01-23 05:03:38.610 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:38.611 TD00000000000002: updating twins 1:0
+2019-01-23 05:03:38.613 TD00000000000002: ABP FCnt cache reset for multigateway
+2019-01-23 05:03:38.849 TD00000000000002: valid frame counter, msg: 1 server: 0
+2019-01-23 05:03:38.850 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:38.850 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:38.866 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:38.897 TD00000000000002: could not update twins with error: Service rejected the message with status: 404
+2019-01-23 05:03:39.301 Physical dataUp {"rxpk":[{"tmst":498105915,"chan":1,"rfch":1,"freq":487.300000,"stat":1,"modu":"LORA","datr":"SF7BW125","codr":"4/5","lsnr":9.5,"rssi":-41,"size":214,"data":"QAIAAAAABgACEQ8WS00mKCKzUb82H1KApuaRYmj4y2wWpTxCje/9R6zar3cfYn3/2FPWOeIEektuDdJ2S8rURZhrAAoP7js1SU/qq2WMxSuuKN/h89kVXa8CPgX4P5nYGk+STe3bwT23TRNnby9EkITpWUdO+EnYq8A7N7b0SJSrIGjfJkD3Cy2iLE6Wj+UDKtw1IRQ5m74UEfO5L5qjmWA4X7DIfNRRyC29VhvRffuos3G6AVgK5shnQhuNpXWypvzcBCafAHDT8gM6yPN8ObubRKRxhg=="}]}
+2019-01-23 05:03:39.552 TD00000000000002: using iotHub directly, no edgeHub queue
+2019-01-23 05:03:39.554 TD00000000000002: getting twins
+2019-01-23 05:03:40.647 TD00000000000002: done getting twins
+2019-01-23 05:03:40.647 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:40.648 TD00000000000002: done getting twins
+2019-01-23 05:03:40.649 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:40.649 TD00000000000002: valid frame counter, msg: 2 server: 0
+2019-01-23 05:03:40.650 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:40.651 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:40.656 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
+2019-01-23 05:03:46.739 TD00000000000002: done getting twins
+2019-01-23 05:03:46.740 TD00000000000002: AppSKey not present neither in Desired or in Reported properties
+2019-01-23 05:03:46.740 TD00000000000002: done getting twins
+2019-01-23 05:03:46.740 TD00000000000002: processing message, device not in cache
+2019-01-23 05:03:46.740 TD00000000000002: valid frame counter, msg: 3 server: 0
+2019-01-23 05:03:46.741 TD00000000000002: failed to decrypt message: Object reference not set to an instance of an object.
+2019-01-23 05:03:46.742 TD00000000000002: no decoder set in device twin. port: 2
+2019-01-23 05:03:46.751 Error processing the message Value cannot be null.
+Parameter name: inArray,    at System.Convert.ToBase64String(Byte[] inArray)
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessLoraMessage(LoRaMessageWrapper loraMessage) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 157
+   at LoRaWan.NetworkServer.MessageProcessor.ProcessMessageAsync(Byte[] message) in /app/LoRaWan.NetworkServer/MessageProcessor.cs:line 60
+   at LoRaWan.NetworkServer.UdpServer.<>c__DisplayClass10_1.<<RunUdpListener>b__0>d.MoveNext() in /app/LoRaWan.NetworkServer/UdpServer.cs:line 105
